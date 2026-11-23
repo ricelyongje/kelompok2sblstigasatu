@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baked & Co. — Fresh Artisan Bakery Sleman</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER (sama seperti halaman About Us, dengan Home aktif) -->
+  <header class="header">
+    <div class="header-dalam">
+      <a href="index.html" class="logo">
+        <span class="ikon">bakery_dining</span>
+        <span class="logo-teks">Baked & Co.</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html" class="nav-tautan nav-tautan-aktif">Home / Landing Page</a>
+        <a href="about-us.html" class="nav-tautan">About Us</a>
+        <a href="catalog.html" class="nav-tautan">Catalog</a>
+        <a href="contact-us.html" class="nav-tautan">Contact Us</a>
+      </nav>
+      <div class="pencarian-area">
+        <div class="dropdown-tim">
+          <div class="pencarian-box">
+            <span class="ikon">search</span>
+            <span class="teks-kecil">Cari sourdough, brioche...</span>
+          </div>
+          <div class="dropdown-panel">
+            <div class="dropdown-judul">
+              <span class="label-kecil warna-utama" style="font-weight:700;">Kelompok 2 / XI 3.1</span>
+              <span class="lencana lencana-sekunder">Creative Team</span>
+            </div>
+            <ul class="dropdown-daftar">
+              <li class="dropdown-item"><span>Abigail Gracia Kirana</span><span class="nomor">No. 01</span></li>
+              <li class="dropdown-item"><span>Agnes Cara Chrisgenoveva</span><span class="nomor">No. 20</span></li>
+              <li class="dropdown-item"><span>Alexandra Vanny P. P.</span><span class="nomor">No. 26</span></li>
+              <li class="dropdown-item"><span>Richelle Jordan Hoo</span><span class="nomor">No. 32</span></li>
+              <li class="dropdown-item"><span>Arabella Syaqila Putri</span><span class="nomor">No. 35</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="avatar"><span class="ikon" style="font-size:18px;">person</span></div>
+      </div>
+    </div>
+  </header>
+
+  <main style="padding-top:5rem;background:var(--permukaan);">
+    <div style="display:flex;flex-direction:column;width:100%;">
+
+      <!-- ===================== HERO ===================== -->
+      <section class="beranda-hero">
+        <div class="beranda-hero-watermark">ARTISAN</div>
+        <div class="wadah" style="position:relative;z-index:10;">
+
+          <div class="beranda-hero-status">
+            <span class="lencana lencana-sekunder" style="gap:0.5rem;">
+              <span class="denyut" style="width:0.5rem;height:0.5rem;border-radius:50%;background:var(--sekunder);"></span>
+              Oven Panas Aktif • Fresh Today
+            </span>
+            <span class="label-kecil warna-varian" style="display:none;">Sleman, Daerah Istimewa Yogyakarta</span>
+            <span class="teks-kecil warna-varian">Sleman, Daerah Istimewa Yogyakarta</span>
+          </div>
+
+          <div class="beranda-hero-grid">
+            <!-- Teks Hero -->
+            <div class="beranda-hero-teks">
+              <div style="display:flex;flex-direction:column;gap:1rem;">
+                <span class="lencana-artisan" style="color:var(--sekunder);">Crafted in Small Batches</span>
+                <h1 class="judul-utama beranda-hero-judul warna-utama">
+                  Freshly Baked from the Heart of Sleman.
+                </h1>
+                <p class="teks-besar beranda-hero-deskripsi warna-varian">
+                  Menghidupkan seni viennoiserie Prancis & roti gandum alami dengan
+                  fermentasi lambat 36–72 jam dan 100% mentega AOP Normandia murni.
+                </p>
+              </div>
+
+              <div class="beranda-hero-cta">
+                <a href="catalog.html" class="tombol-kategori">
+                  <span>Jelajahi 8 Kategori & 48 Sajian</span>
+                  <span class="ikon" style="font-size:18px;">arrow_forward</span>
+                </a>
+                <a href="#jadwal-oven" class="tombol-jadwal">
+                  <span class="ikon" style="font-size:18px;color:var(--sekunder);">schedule</span>
+                  <span>Jadwal Oven (06.00 & 15.00 WIB)</span>
+                </a>
+              </div>
+
+              <div class="beranda-hero-catatan">
+                <div class="beranda-avatar-stack">
+                  <span class="av-utama">OG</span>
+                  <span class="av-sekunder">RJ</span>
+                  <span class="av-tersier">AC</span>
+                </div>
+                <p>
+                  <span style="font-weight:700;color:var(--utama);">48 Resep Klasik & Kontemporer</span>
+                  dipanggang harian oleh 5 artisan baker.
+                </p>
+              </div>
+            </div>
+
+            <!-- Mosaik Visual -->
+            <div class="beranda-mosaik">
+              <div class="beranda-mosaik-grid">
+                <!-- Kolom kiri -->
+                <div class="beranda-mosaik-kiri">
+                  <div class="kartu-visual-produk aspect-tall">
+                    <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAl3wV5m1WpWyQoUVi7Xo4t7JY3E5dQYl3NKDaUL1YcNGWijKTGW_hYfZqniZ8W4k_j6innBv-9G1CpchinWaODujRRHD6BV9b99c8uDtFvqypvCvCIYKfQd0qlYkcqfcvaawn5u5dzEEkgd_dMSJffazMvfQ1715MAWuCQPIhugY9keSpSdgTBRwINcas9wnS6gqTvqM6t7FTPVMB8lrbIV84DA05Dms5SRgtZWg" alt="Pain au Chocolat">
+                    <div class="overlay">
+                      <span class="lencana-artisan" style="color:var(--sekunder-muda);">Signature Viennoiserie</span>
+                      <p class="judul-kecil">Pain au Chocolat</p>
+                      <p class="label-kecil" style="color:var(--utama-muda-redup);">81 Lapis Mentega Normandia</p>
+                    </div>
+                  </div>
+                  <div class="kartu-stat-baker">
+                    <div class="ikon-bulat"><span class="ikon">local_fire_department</span></div>
+                    <div>
+                      <div class="judul-kecil warna-utama" style="font-weight:700;">210°C</div>
+                      <div class="teks-kecil warna-varian">Steam Deck Deck Oven</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Kolom kanan (offset) -->
+                <div class="beranda-mosaik-kanan">
+                  <div class="kartu-ragi">
+                    <span class="label-badge">Starter Induk Sejak 2016</span>
+                    <p class="judul-sedang">Wild Yeast Levain</p>
+                    <p class="deskripsi">Menghasilkan crumb kenyal, aroma buah pir liar, dan asam laktat halus.</p>
+                  </div>
+                  <div class="kartu-visual-produk aspect-med">
+                    <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDg8hYkAT7MnwRnlJ50Qlabj7Zo5E_hmhDOh8G6Iq4qf5Cn4Th1r7v58T2hJFV-BFQx0dy9hiAJ5g3UhAchB89C3q-u4-DlPIGdKVMph5SssBhNef9RFZJwQ9yXGJVBn8Ky5kgb_621ZOtAr2IJNgFArllh_g-PVbo-IkCHXnFFYQzvoRGKDPt9CW9Tftj1WJPobJjIVR1O5GB3RGqb2VBne_ciyM08r5pLvl7IQw" alt="Country Sourdough">
+                    <div class="overlay">
+                      <span class="label-kecil" style="background:var(--sekunder);color:var(--di-sekunder);padding:0.125rem 0.5rem;border-radius:var(--sudut-penuh);display:inline-block;align-self:flex-start;margin-bottom:0.25rem;">72H Fermentation</span>
+                      <p class="judul-kecil">Country Sourdough</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Statistik Cepat -->
+          <div class="statistik-cepat">
+            <div class="statistik-item">
+              <div class="statistik-angka">48</div>
+              <div class="statistik-label">Resep Terkurasi</div>
+              <div class="statistik-deskripsi">Sajian viennoiserie, pastry, roti eropa & kue murni.</div>
+            </div>
+            <div class="statistik-item">
+              <div class="statistik-angka sekunder">8</div>
+              <div class="statistik-label">Kategori Spesial</div>
+              <div class="statistik-deskripsi">Dari sourdough klasik hingga brioche doughnut empuk.</div>
+            </div>
+            <div class="statistik-item">
+              <div class="statistik-angka">72<span>Jam</span></div>
+              <div class="statistik-label">Fermentasi Dingin</div>
+              <div class="statistik-deskripsi">Pencernaan lebih ramah gandum tanpa gluten sintetis.</div>
+            </div>
+            <div class="statistik-item">
+              <div class="statistik-angka sekunder">100%</div>
+              <div class="statistik-label">Bahan Alami</div>
+              <div class="statistik-deskripsi">Nol bahan pengawet, perisa kimia, ataupun shortening.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== KATEGORI ===================== -->
+      <section class="bagian-kategori">
+        <div class="wadah">
+          <div class="kategori-header">
+            <div class="kategori-header-teks">
+              <span class="lencana-artisan" style="color:var(--sekunder);">Koleksi Menu Lengkap</span>
+              <h2 class="judul-utama warna-utama" style="font-weight:700;">Delapan Ranah Panggangan Artisan.</h2>
+              <p class="teks-sedang warna-varian">
+                Setiap kategori diracik dengan profil hidrasi, jenis tepung gilingan batu,
+                dan teknik pemanggangan spesifik untuk kesempurnaan tekstur.
+              </p>
+            </div>
+            <a href="catalog.html" class="tombol-lihat-katalog kategori-header-aksi">
+              <span>Lihat Seluruh 48 Menu di Catalog</span>
+              <span class="ikon" style="font-size:18px;">menu_book</span>
+            </a>
+          </div>
+
+          <div class="kategori-grid">
+            <!-- 1. Breads -->
+            <a href="catalog.html" class="kartu-kategori">
+              <div class="kartu-kategori-gambar">
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCr2C7ToqgquciifHf1wdb_9Cewi6XcfckK9EMq9RouyzrHIRQK-YTPIBk2U1bKHIcj60Cfyw154KoOtUkQnSknnUDQdzwtuxhB2qhRv4hOmd65LmSXZU8B2pROr8bRIkP8RfcRYf5OKoJ4oYrHH-QCU4o921H9oGG-7REQybIpuROIWSId_2YwIGioG5WFFYSreR1GZz5tla4-0ptid4XwiWyAAnXyHKN2eIxjzw" alt="Breads">
+                <span class="kartu-kategori-lencana">01 / Roots</span>
+              </div>
+              <div class="kartu-kategori-isi">
+                <div>
+                  <h3 class="judul-kecil">Breads & Sourdough</h3>
+                  <p class="teks-kecil warna-varian" style="margin-top:0.25rem;">Country boule, baguette fermentasi lambat, multiseed rustic loaf.</p>
+                </div>
+                <div class="kartu-kategori-sinyal">
+                  <span class="sinyal-nama">Signature: Campagne Boule</span>
+                  <span class="ikon">arrow_forward</span>
+                </div>
+              </div>
+            </a>
+
+            <!-- 2. Pastries -->
+            <a href="catalog.html" class="kartu-kategori">
+              <div class="kartu-kategori-gambar">
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDeilMPHlxSzobi1wDbgnJ1bzBbD6e6jtOcucetuyx-1gDZjjB3QnVoq2Hz5R1Y9-StHafr4Xxsy5ur1ljkiRGCe-L44sjocxPzJkvAxcj3gj1Yj0Y6SG-m1kLpobq0HMiEqfHrEHPUAEYmQ13-RWbtlOAeJoQosFwiuMTvBPhMZyRErdHUD5HfDv0QH6vm4wsYix_QfHIv_EtGsSC8EunNL2oLIu2BhHkA6jfqWg" alt="Pastries">
+                <span class="kartu-kategori-lencana">02 / Flaky</span>
+              </div>
+              <div class="kartu-kategori-isi">
+                <div>
+                  <h3 class="judul-kecil">Viennoiserie & Pastries</h3>
+                  <p class="teks-kecil warna-varian" style="margin-top:0.25rem;">Croissant AOP, Kouign-Amann karamel renyah, fruit Danish buah musiman.</p>
+                </div>
+                <div class="kartu-kategori-sinyal">
+                  <span class="sinyal-nama">Signature: Salted Caramel Kouign-Amann</span>
+                  <span class="ikon">arrow_forward</span>
+                </div>
+              </div>
+            </a>
+
+            <!-- 3. Cakes -->
+            <a href="catalog.html" class="kartu-kategori">
+              <div class="kartu-kategori-gambar">
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDG_F7KIuOHAXTzcFN0JfBc4kXWzv3cYE6lYvEOonkI6olD59j08jzMlXmFpxWKLJJ10Xbzirc7jDu6zvGQ2t2udiyx3hQEQar---z6TwOrzcmQmX77tg9u7lZGicfIndTyDJJlwgEt4KbFS-icFEm0gKoX3Sk1Jn4DD8m4L6LQMV5Sl9GGRntvgD6d2dHQsd0kh8h4qv13B7ilFK9Phxq26dmaCveS4grzGJbU8A" alt="Cakes">
+                <span class="kartu-kategori-lencana">03 / Gateau</span>
+              </div>
+              <div class="kartu-kategori-isi">
+                <div>
+                  <h3 class="judul-kecil">Artisan Cakes</h3>
+                  <p class="teks-kecil warna-varian" style="margin-top:0.25rem;">Dark chocolate ganache torte, carrot walnut loaf cake, Basque burnt cheesecake.</p>
+                </div>
+                <div class="kartu-kategori-sinyal">
+                  <span class="sinyal-nama">Signature: Basque Burnt Honey</span>
+                  <span class="ikon">arrow_forward</span>
+                </div>
+              </div>
+            </a>
+
+            <!-- 4. Cupcakes -->
+            <a href="catalog.html" class="kartu-kategori">
+              <div class="kartu-kategori-gambar">
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAHmsnGNMgMZ9TcjKl4SqKNfZZXbt8_EAVVzFR5M76E5-u-ZwRVk0mf0rZ6LqiHFLk0ZxwKv2DXfjEnFZtq1qdxtV_R3uZcEgs-TvGCB5oDM6TPDX4ae3lt4ogE_jr8r0xmUngMY33q05f-I44nfs7gRC14LL5zHVMCnzJsUVfn1OELUCe_JNXboLLkmJ393TFlL9jKJN4LnRBnqLUIYY5lGSLMsFg8WYGUAPN81g" alt="Cupcakes">
+                <span class="kartu-kategori-lencana">04 / Petite</span>
+              </div>
+              <div class="kartu-kategori-isi">
+                <div>
+                  <h3 class="judul-kecil">Cupcakes & Tartlets</h3>
+                  <p class="teks-kecil warna-varian" style="margin-top:0.25rem;">Madagascar vanilla bean sponge, hazelnut praline swirl, salted caramel core.</p>
+                </div>
+                <div class="kartu-kategori-sinyal">
+                  <span class="sinyal-nama">Signature: Praline Hazelnut Cup</span>
+                  <span class="ikon">arrow_forward</span>
+                </div>
+              </div>
+            </a>
+
+            <!-- 5. Cookies -->
+            <a href="catalog.html" class="kartu-kategori">
+              <div class="kartu-kategori-gambar">
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDDC_Poe33T-X2C_-CG8Hm2moVPCKRdf9Tt5v5pxKMbNG3yF_vwR0-WC1HtxFWYa_1brdtrubMEnSOd-WE5WhozlE7udB1FuUTjixLnwPuHNfiFdhMGhUtCHN8uqUfNJZxg_tCXKmkONcF3hGJ1AFq0A8jV9OgR3szmo2HNj1GJxwe43JK7O1BM4UBP0xnulLE2YK7UeHccssURWOEDkvsxt3zeYpSAO9KOnyVwA" alt="Cookies">
+                <span class="kartu-kategori-lencana">05 / Browns</span>
+              </div>
+              <div class="kartu-kategori-isi">
+                <div>
+                  <h3 class="judul-kecil">Rustic Chunky Cookies</h3>
+                  <p class="teks-kecil warna-varian" style="margin-top:0.25rem;">Garam laut Maldon, cokelat Belgia 70%, brown butter panggang khas.</p>
+                </div>
+                <div class="kartu-kategori-sinyal">
+                  <span class="sinyal-nama">Signature: Sea Salt Dark Choc 70%</span>
+                  <span class="ikon">arrow_forward</span>
+                </div>
+              </div>
+            </a>
+
+            <!-- 6. Biscuits -->
+            <a href="catalog.html" class="kartu-kategori">
+              <div class="kartu-kategori-gambar">
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzEMsD_K7z-GT_ZbK3t3K_gBtUNuGScY9VZako7iMVbIBnJmTyFmPNP2TW50bASNvO4fPUMG01c64drznJ8zc5WDxwxo_7Bbv4rveLBf_TKivhq7VOBOhAgHKbnJF_kopzhHid819EF36Ee02uRAwrAj7iioa5jNsfA4frEE6Us7V-p0O4v4xbrPZHM7_p0xoQF55fj_nzcLKtonr97fc1kJ-AZyDSaHsGLAifqw" alt="Biscuits">
+                <span class="kartu-kategori-lencana">06 / Crunch</span>
+              </div>
+              <div class="kartu-kategori-isi">
+                <div>
+                  <h3 class="judul-kecil">Biscuits & Biscotti</h3>
+                  <p class="teks-kecil warna-varian" style="margin-top:0.25rem;">Almond cantucci panggang ganda, butter shortbread, oat hazelnut crisp.</p>
+                </div>
+                <div class="kartu-kategori-sinyal">
+                  <span class="sinyal-nama">Signature: Twice-Baked Almond Biscotti</span>
+                  <span class="ikon">arrow_forward</span>
+                </div>
+              </div>
+            </a>
+
+            <!-- 7. Muffins -->
+            <a href="catalog.html" class="kartu-kategori">
+              <div class="kartu-kategori-gambar">
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAH00uRlNcQ7W86jkDBZNIDHZJzTDvzMjXFTgzvfvdZ5V7kL_6457403VHK-vVlCVbmU75_k26e33SCI9bf07sxZ1b9sOX1vUoT6EGsFGvQVGbn-WKGDLgyuOUT07JhX9niBZ6og9cdBkMsHb-VfJUcLHqzTkm9QJL6GFhWDKzZXjXeksDsoMW-B6m163Vilo7Ad6FOj5orivm96048CVDeNhxSY_jgNAu898zXkQ" alt="Muffins">
+                <span class="kartu-kategori-lencana">07 / Morning</span>
+              </div>
+              <div class="kartu-kategori-isi">
+                <div>
+                  <h3 class="judul-kecil">Daily Morning Muffins</h3>
+                  <p class="teks-kecil warna-varian" style="margin-top:0.25rem;">Blueberry liar segar, streusel kayu manis, double dark cocoa crumble.</p>
+                </div>
+                <div class="kartu-kategori-sinyal">
+                  <span class="sinyal-nama">Signature: Wild Blueberry Streusel</span>
+                  <span class="ikon">arrow_forward</span>
+                </div>
+              </div>
+            </a>
+
+            <!-- 8. Doughnuts -->
+            <a href="catalog.html" class="kartu-kategori">
+              <div class="kartu-kategori-gambar">
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTzNHI7hur9njUhzCHjDY0VVPIA3cPflZIk3Aqu9lUyjAH7171pkpc3KXCw3tNkyUwJ0ZXfiQLaSesGTXHLDjEY72b0BZjMWJ2H1anyNkd_3yJWDOEvs7k33H5KBk6E40UlhDkyxpOagI0MkJIIxnGVTckh6SwMNw-ozXPGZv05TnuxRU-dzt0k7xXLHAO1u3diiF-6F2VOWiDBKKZqS-Ya9reQO7ldZDzIY6pUA" alt="Doughnuts">
+                <span class="kartu-kategori-lencana">08 / Brioche</span>
+              </div>
+              <div class="kartu-kategori-isi">
+                <div>
+                  <h3 class="judul-kecil">Brioche Doughnuts</h3>
+                  <p class="teks-kecil warna-varian" style="margin-top:0.25rem;">Fermentasi 24 jam dengan kuning telur segar, bomboloni vanilla bean & matcha.</p>
+                </div>
+                <div class="kartu-kategori-sinyal">
+                  <span class="sinyal-nama">Signature: Tahitian Vanilla Bomboloni</span>
+                  <span class="ikon">arrow_forward</span>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="banner-katalog">
+            <div class="banner-katalog-kiri">
+              <div class="banner-katalog-ikon"><span class="ikon">restaurant_menu</span></div>
+              <div>
+                <h4 class="judul-kecil warna-utama">Ingin melihat rincian gramasi, alergen & harga tiap sajian?</h4>
+                <p class="teks-kecil warna-varian">Buka katalog digital interaktif dengan filter diet vegan, gluten-conscious, dan ketersediaan batch.</p>
+              </div>
+            </div>
+            <a href="catalog.html" class="banner-katalog-aksi">Buka Halaman Catalog →</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== PILAR FILOSOFI ===================== -->
+      <section class="bagian-pilar">
+        <div class="wadah">
+          <div class="pilar-header">
+            <span class="lencana-artisan" style="color:var(--sekunder);">Filosofi Dapur Kami</span>
+            <h2 class="judul-utama warna-utama" style="font-weight:700;">
+              Tiga Pilar Rasa yang Pantang Kami Kompromikan.
+            </h2>
+            <p class="teks-besar warna-varian">
+              Dari butter ratio hingga kurva suhu pemanggangan, keunggulan tekstur artisan
+              tidak lahir dari kebetulan, melainkan sains dan presisi waktu.
+            </p>
+          </div>
+
+          <div class="pilar-grid">
+            <!-- Pilar 1 -->
+            <div class="kartu-pilar">
+              <div class="kartu-pilar-atas">
+                <div class="kartu-pilar-ikon sekunder"><span class="ikon">egg</span></div>
+                <span class="lencana-artisan" style="color:var(--sekunder);">Pilar 01 • Mentega Normandia</span>
+                <h3 class="judul-sedang">Normandy Butter 84% & 81 Flaky Layers</h3>
+                <p class="teks-sedang">
+                  Kami secara eksklusif menggunakan butter AOP dari padang rumput pesisir
+                  Normandia dengan kadar lemak susu minimal 84%. Dicanai dingin dalam
+                  3 putaran lipatan ganda untuk membentuk struktur sarang lebah (honeycomb
+                  crumb) yang renyah namun lembut meleleh di lidah.
+                </p>
+              </div>
+              <div class="kartu-pilar-catatan">
+                <div class="label-kecil">Titik Leleh Optimal: 34°C</div>
+                <div class="teks-kecil">Menghasilkan harum hazelnut alami saat bersentuhan dengan langit-langit mulut.</div>
+              </div>
+            </div>
+
+            <!-- Pilar 2 -->
+            <div class="kartu-pilar">
+              <div class="kartu-pilar-atas">
+                <div class="kartu-pilar-ikon utama"><span class="ikon">science</span></div>
+                <span class="lencana-artisan" style="color:var(--sekunder);">Pilar 02 • Ragi Alami</span>
+                <h3 class="judul-sedang">Ragi Alami 8 Tahun (Sourdough Starter)</h3>
+                <p class="teks-sedang">
+                  Diberi makan dua kali sehari dengan tepung gandum utuh rye Australia.
+                  Biakan liar ini menghasilkan spektrum asam asetat dan laktat yang kompleks,
+                  memecah pati kompleks sehingga roti kami jauh lebih nyaman bagi perut
+                  sensitif gluten.
+                </p>
+              </div>
+              <div class="kartu-pilar-catatan">
+                <div class="label-kecil">Cold Retardation: 36–72 Jam</div>
+                <div class="teks-kecil">Fermentasi lambat pada temperatur 4°C untuk mengunci aroma manis gandum alami.</div>
+              </div>
+            </div>
+
+            <!-- Pilar 3 -->
+            <div class="kartu-pilar">
+              <div class="kartu-pilar-atas">
+                <div class="kartu-pilar-ikon tersier"><span class="ikon">heat</span></div>
+                <span class="lencana-artisan" style="color:var(--sekunder);">Pilar 03 • Pemanggangan Presisi</span>
+                <h3 class="judul-sedang">Deck Oven Steam Injected at 210°C</h3>
+                <p class="teks-sedang">
+                  Roti dipanggang langsung di atas batu vulkanik panas dengan injeksi uap
+                  air bertekanan tinggi pada 90 detik pertama. Uap tersebut mendelay
+                  pembentukan kulit luar agar adonan merekah maksimal menghasilkan blister
+                  renyah keemasan.
+                </p>
+              </div>
+              <div class="kartu-pilar-catatan">
+                <div class="label-kecil">Blister Crust & Bold Caramelization</div>
+                <div class="teks-kecil">Reaksi Maillard sempurna yang melahirkan warna cokelat keemasan khas artisan.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== JADWAL & LOKASI ===================== -->
+      <section class="bagian-jadwal" id="jadwal-oven">
+        <div class="wadah">
+          <div class="jadwal-header">
+            <div class="jadwal-header-teks">
+              <span class="lencana-artisan" style="color:var(--sekunder);">Waktu Terbaik Mengunjungi Kami</span>
+              <h2 class="judul-utama warna-utama" style="font-weight:700;">
+                Jadwal Pemanggangan & Suhu Hangat.
+              </h2>
+              <p class="teks-sedang warna-varian" style="max-width:36rem;">
+                Sajian kami tidak pernah dihangatkan ulang via microwave. Datanglah tepat
+                saat bel oven berdentang untuk kenikmatan aroma maksimal.
+              </p>
+            </div>
+            <div class="jadwal-badge">
+              <span class="ikon">notifications_active</span>
+              <span>Batch Baru Setiap Hari Selasa – Minggu</span>
+            </div>
+          </div>
+
+          <div class="jadwal-grid">
+            <!-- Kolom kiri: jadwal -->
+            <div class="jadwal-kolom-kiri">
+              <div class="kartu-jadwal pagi">
+                <div class="kartu-jadwal-atas">
+                  <span class="lencana-artisan" style="color:var(--sekunder);">Sesi Oven 01 • Pagi Hari</span>
+                  <span class="kartu-jadwal-waktu">06.00 WIB</span>
+                </div>
+                <h3 class="judul-sedang">Le Petit Déjeuner & Viennoiserie Hangat</h3>
+                <p class="teks-kecil">
+                  Waktu terbaik untuk menikmati Classic Croissant, Kouign Amann karamel
+                  hangat, Morning Blueberry Muffin, dan Brioche Doughnuts yang baru keluar
+                  dari proofer.
+                </p>
+                <div class="kartu-jadwal-tag">
+                  <span>French Croissant</span>
+                  <span>Pain au Chocolat</span>
+                  <span>Vanilla Bomboloni</span>
+                </div>
+              </div>
+
+              <div class="kartu-jadwal sore">
+                <div class="kartu-jadwal-atas">
+                  <span class="lencana-artisan" style="color:var(--utama);">Sesi Oven 02 • Sore Hari</span>
+                  <span class="kartu-jadwal-waktu">15.00 WIB</span>
+                </div>
+                <h3 class="judul-sedang">Country Boule & Tea Time Gateau</h3>
+                <p class="teks-kecil">
+                  Waktu rilis roti sourdough gandum utuh berkulit garing, foccacia rosemary
+                  asin, chunky warm cookies, dan kue torte cokelat lembut untuk teman kopi senja.
+                </p>
+                <div class="kartu-jadwal-tag">
+                  <span>Country Sourdough</span>
+                  <span>Sea Salt Cookies</span>
+                  <span>Burnt Honey Torte</span>
+                </div>
+              </div>
+
+              <div class="pengingat-pesan">
+                <div class="pengingat-pesan-kiri">
+                  <span class="ikon">shopping_bag</span>
+                  <span class="teks-kecil" style="font-weight:500;">Khawatir kehabisan roti favorit Anda saat sesi sore?</span>
+                </div>
+                <a href="contact-us.html" class="tautan">Pre-Order WhatsApp</a>
+              </div>
+            </div>
+
+            <!-- Kolom kanan: peta & butik -->
+            <div class="kartu-peta-butik">
+              <div style="display:flex;flex-direction:column;gap:1rem;">
+                <div class="kartu-peta-butik-atas">
+                  <div>
+                    <span class="lencana-artisan" style="color:var(--sekunder);">Boutique & Tasting Room</span>
+                    <h3 class="judul-sedang warna-utama" style="font-weight:700;">Kunjungi Dapur Kami di Sleman</h3>
+                  </div>
+                  <span class="label-kecil warna-utama" style="background:var(--permukaan-sedang);padding:0.25rem 0.75rem;border-radius:var(--sudut-penuh);">Buka 06.00 – 20.00 WIB</span>
+                </div>
+                <p class="teks-sedang warna-varian" style="line-height:1.6;">
+                  Nikmati semerbak butter panggang di ruang mencicipi kami yang bernuansa
+                  hangat dengan interior kayu jati dan teras hijau yang asri di utara Yogyakarta.
+                </p>
+              </div>
+
+              <div class="peta-visual" style="background-image:url('https://lh3.googleusercontent.com/aida-public/AB6AXuB4eucS0Fi2VYcf1_fXwk33pEP18mM5hG2B7R1rJtPEZILBFi2rvrcX3bu2P3fjBd50ImLJq4_H7K5-boTQ8QJZzZL2LLd35N62ugrq40klUaiK3vqMfCHSx9DOPkUymjlLDlzABi_majI8GSTt2mF4MdlJnUQ5nU-v7vY6qIBiTWR7KfyQ5Wf6nn5H7wNlkoULhsLO75YyWZ5Y0E0yBpOXEypKod-C6AUNRZumGA');">
+                <div class="overlay"></div>
+                <div class="info">
+                  <div class="info-teks">
+                    <span class="ikon">place</span>
+                    <div>
+                      <div class="label-besar" style="font-weight:700;">Baked & Co. Sleman Atelier</div>
+                      <div class="teks-kecil" style="color:var(--utama-muda-redup);">Jl. Gandum Emas No. 12, DI Yogyakarta</div>
+                    </div>
+                  </div>
+                  <a href="#" class="tombol-arah">Petunjuk Arah</a>
+                </div>
+              </div>
+
+              <div class="kontak-mini-grid">
+                <div>
+                  <span class="label-kecil">Layanan Meja & Dine-In</span>
+                  <p class="teks-kecil warna-varian">Tersedia 32 kursi indoor ber-AC & 16 kursi semi-outdoor.</p>
+                </div>
+                <div>
+                  <span class="label-kecil">Area Parkir</span>
+                  <p class="teks-kecil warna-varian">Parkir mobil luas & ramah pesepeda (bike rack ready).</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== TESTIMONI ===================== -->
+      <section class="bagian-testimoni">
+        <div class="wadah">
+          <div class="testimoni-header">
+            <span class="lencana-artisan" style="color:var(--sekunder);">Apresiasi Pelanggan</span>
+            <h2 class="judul-utama warna-utama" style="font-weight:700;">
+              Apa Kata Pecinta Pastry Yogyakarta.
+            </h2>
+            <p class="teks-sedang warna-varian">
+              Cerita nyata dari mereka yang menjadikan roti kami sarapan wajib harian dan
+              ritual akhir pekan di Sleman.
+            </p>
+          </div>
+
+          <div class="testimoni-grid">
+            <div class="kartu-testimoni">
+              <div style="display:flex;flex-direction:column;gap:1rem;">
+                <div class="bintang">
+                  <span class="ikon">star</span><span class="ikon">star</span><span class="ikon">star</span><span class="ikon">star</span><span class="ikon">star</span>
+                </div>
+                <p class="kutipan">
+                  "Susah sekali mencari Kouign-Amann di Jogja yang kulit karamelnya pas
+                  tanpa bikin enek. Di Baked & Co., renyahnya berlapis-lapis dan mentega
+                  Normandia-nya wangi luar biasa saat diseruput bersama flat white."
+                </p>
+              </div>
+              <div class="penulis">
+                <div class="penulis-avatar sekunder">DR</div>
+                <div>
+                  <div class="penulis-nama">dr. Raditya Mahendra</div>
+                  <div class="penulis-peran">Pencinta Kopi & Pastry • Kaliurang</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="kartu-testimoni">
+              <div style="display:flex;flex-direction:column;gap:1rem;">
+                <div class="bintang">
+                  <span class="ikon">star</span><span class="ikon">star</span><span class="ikon">star</span><span class="ikon">star</span><span class="ikon">star</span>
+                </div>
+                <p class="kutipan">
+                  "Country Sourdough 72 jam fermentasi mereka adalah penyelamat lambung saya.
+                  Tekstur kenyal lembut dengan ear yang mekar sempurna. Batch jam 3 sore
+                  wajib diamankan via WA sebelum habis."
+                </p>
+              </div>
+              <div class="penulis">
+                <div class="penulis-avatar utama">SW</div>
+                <div>
+                  <div class="penulis-nama">Stephanie Wibowo</div>
+                  <div class="penulis-peran">Food Stylist & Sourdough Enthusiast</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="kartu-testimoni">
+              <div style="display:flex;flex-direction:column;gap:1rem;">
+                <div class="bintang">
+                  <span class="ikon">star</span><span class="ikon">star</span><span class="ikon">star</span><span class="ikon">star</span><span class="ikon">star</span>
+                </div>
+                <p class="kutipan">
+                  "Brioche Bomboloni vanilla Tahitian dan Sea Salt Cookies 70%-nya bikin nagih.
+                  Tempatnya sangat hangat, harum butter di setiap sudut. Dapur artisan
+                  terbaik di Sleman tanpa tandingan."
+                </p>
+              </div>
+              <div class="penulis">
+                <div class="penulis-avatar tersier">BP</div>
+                <div>
+                  <div class="penulis-nama">Bimasakti Pratama</div>
+                  <div class="penulis-peran">Arsitek • Kotabaru, Yogyakarta</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== CTA AKHIR ===================== -->
+      <section class="cta-akhir">
+        <div class="wadah">
+          <div class="cta-akhir-dalam">
+            <div class="cta-akhir-teks">
+              <span class="lencana-artisan" style="color:var(--sekunder-muda);">Kunjungi Toko Hari Ini</span>
+              <h3 class="judul-utama">Siap Mencicipi Roti Hangat dari Oven Kami?</h3>
+              <p class="teks-sedang">
+                Dapatkan bakes segar tepat waktu. Telusuri katalog lengkap atau hubungi
+                tim baker kami untuk pesanan khusus hamper dan event.
+              </p>
+            </div>
+            <div class="cta-akhir-aksi">
+              <a href="catalog.html" class="tombol-katalog">Lihat Katalog 48 Sajian</a>
+              <a href="contact-us.html" class="tombol-kontak">Hubungi Tim Kami</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="wadah">
+      <div class="footer-grid">
+        <div class="footer-kolom">
+          <div style="display:flex;align-items:center;gap:0.5rem;">
+            <span class="ikon warna-utama" style="font-size:24px;">bakery_dining</span>
+            <span class="judul-kecil warna-utama">Baked & Co.</span>
+          </div>
+          <p class="footer-teks">
+            Menyajikan viennoiserie, sourdough berfermentasi alami 72 jam, dan biji kopi
+            pilihan dengan dedikasi penuh pada seni artisan bakery.
+          </p>
+        </div>
+        <div class="footer-kolom">
+          <span class="footer-judul">Lokasi Toko</span>
+          <p class="footer-item">
+            <span class="ikon">pin_drop</span>
+            <span>Jl. Gandum Emas No. 12, Sleman, Yogyakarta</span>
+          </p>
+        </div>
+        <div class="footer-kolom">
+          <span class="footer-judul">Jadwal Pemanggangan</span>
+          <div class="footer-item">
+            <span class="ikon">oven_gen</span>
+            <div>
+              <p class="label-kecil warna-utama" style="font-weight:600;">Fresh Bakes Daily:</p>
+              <p>Sesi Pagi: 06.00 WIB</p>
+              <p>Sesi Sore: 15.00 WIB</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-kolom">
+          <span class="footer-judul">Hubungi Kami</span>
+          <div class="footer-item"><span class="ikon">chat</span><span>WhatsApp: +62 812-3456-7890</span></div>
+          <div class="footer-item"><span class="ikon">photo_camera</span><span>Instagram: @bakedandco.id</span></div>
+        </div>
+      </div>
+      <div class="footer-bawah">
+        <p>© 2024 Baked & Co. Crafted with passion by Kelompok 2.</p>
+        <div style="display:flex;gap:1.5rem;font-size:12px;">
+          <span class="warna-sekunder">Sleman, DI Yogyakarta</span>
+          <span>XI 3.1 Creative Project</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

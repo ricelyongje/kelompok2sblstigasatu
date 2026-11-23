@@ -1,0 +1,2586 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>index — Baked & Co.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header-dalam">
+        <a href="index.html" class="logo">
+          <span class="ikon">bakery_dining</span>
+          <span class="logo-teks">Baked & Co.</span>
+        </a>
+        <nav class="nav">
+          <a href="index.html" class="nav-tautan">Home / Landing Page</a>
+          <a href="about-us.html" class="nav-tautan">About Us</a>
+          <a href="catalog.html" class="nav-tautan nav-tautan-aktif">Catalog</a>
+          <a href="contact-us.html" class="nav-tautan">Contact Us</a>
+        </nav>
+        <div class="pencarian-area">
+          <div class="dropdown-tim">
+            <div class="pencarian-box">
+              <span class="ikon">search</span>
+              <span class="teks-kecil">Cari sourdough, brioche...</span>
+            </div>
+            <div class="dropdown-panel">
+              <div class="dropdown-judul">
+                <span class="label-kecil warna-utama" style="font-weight: 700"
+                  >Kelompok 2 / XI 3.1</span
+                >
+                <span class="lencana lencana-sekunder">Creative Team</span>
+              </div>
+              <ul class="dropdown-daftar">
+                <li class="dropdown-item">
+                  <span>Abigail Gracia Kirana</span
+                  ><span class="nomor">No. 01</span>
+                </li>
+                <li class="dropdown-item">
+                  <span>Agnes Cara Chrisgenoveva</span
+                  ><span class="nomor">No. 20</span>
+                </li>
+                <li class="dropdown-item">
+                  <span>Alexandra Vanny P. P.</span
+                  ><span class="nomor">No. 26</span>
+                </li>
+                <li class="dropdown-item">
+                  <span>Richelle Jordan Hoo</span
+                  ><span class="nomor">No. 32</span>
+                </li>
+                <li class="dropdown-item">
+                  <span>Arabella Syaqila Putri</span
+                  ><span class="nomor">No. 35</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="avatar">
+            <span class="ikon" style="font-size: 18px">person</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="katalog-halaman">
+      <!-- ===== RADIO KATEGORI ===== -->
+      <input
+        class="katalog-radio"
+        type="radio"
+        name="kategori"
+        id="pilih-beranda"
+        checked
+      />
+      <input
+        class="katalog-radio"
+        type="radio"
+        name="kategori"
+        id="pilih-roti"
+      />
+      <input
+        class="katalog-radio"
+        type="radio"
+        name="kategori"
+        id="pilih-pastri"
+      />
+      <input
+        class="katalog-radio"
+        type="radio"
+        name="kategori"
+        id="pilih-kue"
+      />
+      <input
+        class="katalog-radio"
+        type="radio"
+        name="kategori"
+        id="pilih-cupcake"
+      />
+      <input
+        class="katalog-radio"
+        type="radio"
+        name="kategori"
+        id="pilih-kukis"
+      />
+      <input
+        class="katalog-radio"
+        type="radio"
+        name="kategori"
+        id="pilih-biskuit"
+      />
+      <input
+        class="katalog-radio"
+        type="radio"
+        name="kategori"
+        id="pilih-mufin"
+      />
+      <input
+        class="katalog-radio"
+        type="radio"
+        name="kategori"
+        id="pilih-donat"
+      />
+
+      <!-- ===== PANGGUNG UTAMA ===== -->
+      <main class="katalog-panggung">
+        <!-- Navigasi -->
+        <nav class="katalog-nav" aria-label="Kategori">
+          <label for="pilih-roti">Breads</label>
+          <label for="pilih-pastri">Pastries</label>
+          <label for="pilih-kue">Cakes</label>
+          <label for="pilih-cupcake">Cupcakes</label>
+          <label for="pilih-kukis">Cookies</label>
+          <label for="pilih-biskuit">Biscuits</label>
+          <label for="pilih-mufin">Muffins</label>
+          <label for="pilih-donat">Doughnuts</label>
+        </nav>
+
+        <!-- Pencarian + tips -->
+        <div class="katalog-pencarian">
+          <input
+            type="search"
+            placeholder="Cari kategori atau produk…"
+            aria-label="Cari"
+          />
+          <div class="katalog-tips">
+            <b>Kelompok 2 / XI 3.1</b>
+            <ol>
+              <li>Abigail Gracia Kirana / 1</li>
+              <li>Agnes Cara Chrisgenoveva / 20</li>
+              <li>Alexandra Vanny P. P. / 26</li>
+              <li>Richelle Jordan Hoo / 32</li>
+              <li>Arabella Syaqila Putri / 35</li>
+            </ol>
+          </div>
+        </div>
+
+        <!-- Logo -->
+        <label
+          class="katalog-logo"
+          for="pilih-beranda"
+          title="Kembali ke beranda"
+        >
+          <svg
+            viewBox="0 0 48 48"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.2"
+            stroke-linecap="round"
+          >
+            <circle cx="24" cy="24" r="21" />
+            <path d="M24 38V14" />
+            <path
+              d="M24 20c-5 0-7-3-7-6 5 0 7 3 7 6zM24 20c5 0 7-3 7-6-5 0-7 3-7 6zM24 28c-5 0-7-3-7-6 5 0 7 3 7 6zM24 28c5 0 7-3 7-6-5 0-7 3-7 6zM24 36c-5 0-7-3-7-6 5 0 7 3 7 6zM24 36c5 0 7-3 7-6-5 0-7 3-7 6z"
+            />
+          </svg>
+          <span>Baked & Co.</span>
+        </label>
+
+        <!-- Kontak -->
+        <div class="katalog-kontak">
+          <div>
+            WhatsApp:
+            <a href="https://wa.me/6281234567890">+62 812-3456-7890</a>
+          </div>
+          <div>Jl. Gandum Emas No. 12, Sleman, Yogyakarta</div>
+          <div>Buka setiap hari 06.00 – 21.00 WIB</div>
+          <div>Roti hangat keluar oven jam 06.00 dan 15.00</div>
+          <div>
+            Instagram:
+            <a href="https://instagram.com/bakedandco.id">@bakedandco.id</a>
+          </div>
+        </div>
+
+        <!-- Slide beranda -->
+        <section
+          class="katalog-slide katalog-beranda katalog-slide-beranda"
+          id="s-beranda"
+        >
+          <svg
+            class="katalog-logo-besar"
+            aria-hidden="true"
+            viewBox="0 0 48 48"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.2"
+            stroke-linecap="round"
+          >
+            <circle cx="24" cy="24" r="21" />
+            <path d="M24 38V14" />
+            <path
+              d="M24 20c-5 0-7-3-7-6 5 0 7 3 7 6zM24 20c5 0 7-3 7-6-5 0-7 3-7 6zM24 28c-5 0-7-3-7-6 5 0 7 3 7 6zM24 28c5 0 7-3 7-6-5 0-7 3-7 6zM24 36c-5 0-7-3-7-6 5 0 7 3 7 6zM24 36c5 0 7-3 7-6-5 0-7 3-7 6z"
+            />
+          </svg>
+          <div class="katalog-judul-raksasa">
+            BAKED & CO.<small>BAKERY</small>
+          </div>
+        </section>
+
+        <!-- ====== SLIDE: ROTI / BREADS ====== -->
+        <section class="katalog-slide katalog-slide-roti" id="s-roti">
+          <div class="katalog-judul-raksasa">BREADS</div>
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-roti"
+            id="produk-roti-0"
+            checked
+            aria-label="Sourdough"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-roti"
+            id="produk-roti-1"
+            aria-label="Baguette"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-roti"
+            id="produk-roti-2"
+            aria-label="Brioche"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-roti"
+            id="produk-roti-3"
+            aria-label="Whole Wheat"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-roti"
+            id="produk-roti-4"
+            aria-label="Focaccia"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-roti"
+            id="produk-roti-5"
+            aria-label="Ciabatta"
+          />
+
+          <!-- placeholder slide produk 1 (posisi ke-2 di DOM, lihat CSS nth-child) -->
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-roti-5"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Sourdough"
+            >
+              <svg viewBox="0 0 200 200">
+                <ellipse
+                  cx="100"
+                  cy="118"
+                  rx="84"
+                  ry="62"
+                  fill="#b9772e"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <path
+                  d="M52 104q16-24 32-32M90 92q16-24 32-32M128 102q16-24 32-32"
+                  stroke="#f3dcae"
+                  stroke-width="10"
+                  stroke-linecap="round"
+                  fill="none"
+                />
+                <circle cx="54" cy="114" r="3" fill="#fff3dc" />
+                <circle cx="110" cy="92" r="3" fill="#fff3dc" />
+                <circle cx="143" cy="130" r="3" fill="#fff3dc" />
+                <circle cx="86" cy="147" r="3" fill="#fff3dc" />
+                <circle cx="126" cy="178" r="3" fill="#fff3dc" />
+                <circle cx="59" cy="174" r="3" fill="#fff3dc" />
+                <circle cx="95" cy="123" r="3" fill="#fff3dc" />
+                <circle cx="148" cy="169" r="3" fill="#fff3dc" />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">Sourdough</figcaption>
+            <label class="katalog-panah katalog-panah-kanan" for="produk-roti-1"
+              >›</label
+            >
+            <span class="katalog-penghitung">1 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-roti-0"
+              >‹</label
+            >
+            <span class="katalog-gambar-besar" role="img" aria-label="Baguette">
+              <svg viewBox="0 0 200 200">
+                <g transform="rotate(-18 100 100)">
+                  <rect
+                    x="8"
+                    y="72"
+                    width="184"
+                    height="56"
+                    rx="28"
+                    fill="#d89a4a"
+                    stroke="rgba(60,30,10,.35)"
+                    stroke-width="2.5"
+                  />
+                  <path
+                    d="M50 81l12 38M88 81l12 38M126 81l12 38M160 81l12 38"
+                    stroke="#f3dcae"
+                    stroke-width="7"
+                    stroke-linecap="round"
+                  />
+                </g>
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">Baguette</figcaption>
+            <label class="katalog-panah katalog-panah-kanan" for="produk-roti-2"
+              >›</label
+            >
+            <span class="katalog-penghitung">2 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-roti-1"
+              >‹</label
+            >
+            <span class="katalog-gambar-besar" role="img" aria-label="Brioche">
+              <svg viewBox="0 0 200 200">
+                <ellipse
+                  cx="100"
+                  cy="130"
+                  rx="80"
+                  ry="48"
+                  fill="#d98a2f"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <circle
+                  cx="100"
+                  cy="76"
+                  r="30"
+                  fill="#d98a2f"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <ellipse
+                  cx="96"
+                  cy="68"
+                  rx="14"
+                  ry="6"
+                  fill="#fff"
+                  opacity=".3"
+                />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">Brioche</figcaption>
+            <label class="katalog-panah katalog-panah-kanan" for="produk-roti-3"
+              >›</label
+            >
+            <span class="katalog-penghitung">3 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-roti-2"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Whole Wheat"
+            >
+              <svg viewBox="0 0 200 200">
+                <ellipse
+                  cx="100"
+                  cy="118"
+                  rx="84"
+                  ry="62"
+                  fill="#8a5a2b"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <path
+                  d="M52 104q16-24 32-32M90 92q16-24 32-32M128 102q16-24 32-32"
+                  stroke="#d9b27a"
+                  stroke-width="10"
+                  stroke-linecap="round"
+                  fill="none"
+                />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">
+              Whole Wheat Bread
+            </figcaption>
+            <label class="katalog-panah katalog-panah-kanan" for="produk-roti-4"
+              >›</label
+            >
+            <span class="katalog-penghitung">4 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-roti-3"
+              >‹</label
+            >
+            <span class="katalog-gambar-besar" role="img" aria-label="Focaccia">
+              <svg viewBox="0 0 200 200">
+                <rect
+                  x="22"
+                  y="52"
+                  width="156"
+                  height="104"
+                  rx="22"
+                  fill="#e0a23f"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <circle cx="46" cy="78" r="5" fill="rgba(120,60,10,.35)" />
+                <circle cx="82" cy="108" r="5" fill="rgba(120,60,10,.35)" />
+                <circle cx="118" cy="78" r="5" fill="rgba(120,60,10,.35)" />
+                <circle cx="154" cy="108" r="5" fill="rgba(120,60,10,.35)" />
+                <path
+                  d="M38 88l12-6M74 118l12-6M110 88l12-6M146 118l12-6"
+                  stroke="#4f7a32"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                />
+                <circle cx="64" cy="110" r="6" fill="#3a2a3f" />
+                <circle cx="136" cy="80" r="6" fill="#3a2a3f" />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">Focaccia</figcaption>
+            <label class="katalog-panah katalog-panah-kanan" for="produk-roti-5"
+              >›</label
+            >
+            <span class="katalog-penghitung">5 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-roti-4"
+              >‹</label
+            >
+            <span class="katalog-gambar-besar" role="img" aria-label="Ciabatta">
+              <svg viewBox="0 0 200 200">
+                <g transform="rotate(-18 100 100)">
+                  <rect
+                    x="25"
+                    y="64"
+                    width="150"
+                    height="72"
+                    rx="36"
+                    fill="#e3b568"
+                    stroke="rgba(60,30,10,.35)"
+                    stroke-width="2.5"
+                  />
+                  <path
+                    d="M50 73l12 54M88 73l12 54M126 73l12 54M160 73l12 54"
+                    stroke="#fff3dc"
+                    stroke-width="7"
+                    stroke-linecap="round"
+                  />
+                </g>
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">Ciabatta</figcaption>
+            <label class="katalog-panah katalog-panah-kanan" for="produk-roti-0"
+              >›</label
+            >
+            <span class="katalog-penghitung">6 / 6</span>
+          </figure>
+        </section>
+
+        <!-- ====== SLIDE: PASTRIES ====== -->
+        <section class="katalog-slide katalog-slide-pastri" id="s-pastri">
+          <div class="katalog-judul-raksasa">PASTRIES</div>
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-pastri"
+            id="produk-pastri-0"
+            checked
+            aria-label="Croissant"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-pastri"
+            id="produk-pastri-1"
+            aria-label="Pain au Chocolat"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-pastri"
+            id="produk-pastri-2"
+            aria-label="Danish"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-pastri"
+            id="produk-pastri-3"
+            aria-label="Puff Pastry"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-pastri"
+            id="produk-pastri-4"
+            aria-label="Cinnamon Roll"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-pastri"
+            id="produk-pastri-5"
+            aria-label="Éclair"
+          />
+
+          <figure class="katalog-produk">
+            <label
+              class="katalog-panah katalog-panah-kiri"
+              for="produk-pastri-5"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Croissant"
+            >
+              <svg viewBox="0 0 200 200">
+                <ellipse
+                  cx="36"
+                  cy="128"
+                  rx="19"
+                  ry="32"
+                  transform="rotate(55 36 128)"
+                  fill="#e3a24a"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <ellipse
+                  cx="164"
+                  cy="128"
+                  rx="19"
+                  ry="32"
+                  transform="rotate(-55 164 128)"
+                  fill="#e3a24a"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <ellipse
+                  cx="64"
+                  cy="106"
+                  rx="26"
+                  ry="42"
+                  transform="rotate(25 64 106)"
+                  fill="#e3a24a"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <ellipse
+                  cx="136"
+                  cy="106"
+                  rx="26"
+                  ry="42"
+                  transform="rotate(-25 136 106)"
+                  fill="#e3a24a"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <ellipse
+                  cx="100"
+                  cy="92"
+                  rx="34"
+                  ry="52"
+                  fill="#e3a24a"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">Croissant</figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-pastri-1"
+              >›</label
+            >
+            <span class="katalog-penghitung">1 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label
+              class="katalog-panah katalog-panah-kiri"
+              for="produk-pastri-0"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Pain au Chocolat"
+            >
+              <svg viewBox="0 0 200 200">
+                <rect
+                  x="26"
+                  y="66"
+                  width="148"
+                  height="76"
+                  rx="34"
+                  fill="#d99a45"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <rect
+                  x="20"
+                  y="92"
+                  width="24"
+                  height="26"
+                  rx="8"
+                  fill="#4a2a1b"
+                />
+                <rect
+                  x="156"
+                  y="92"
+                  width="24"
+                  height="26"
+                  rx="8"
+                  fill="#4a2a1b"
+                />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">
+              Pain au Chocolat
+            </figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-pastri-2"
+              >›</label
+            >
+            <span class="katalog-penghitung">2 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label
+              class="katalog-panah katalog-panah-kiri"
+              for="produk-pastri-1"
+              >‹</label
+            >
+            <span class="katalog-gambar-besar" role="img" aria-label="Danish">
+              <svg viewBox="0 0 200 200">
+                <rect
+                  x="32"
+                  y="32"
+                  width="136"
+                  height="136"
+                  rx="26"
+                  fill="#e8b865"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <rect
+                  x="62"
+                  y="62"
+                  width="76"
+                  height="76"
+                  rx="14"
+                  fill="rgba(255,255,255,.25)"
+                />
+                <circle cx="100" cy="100" r="24" fill="#d6283a" />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">Danish</figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-pastri-3"
+              >›</label
+            >
+            <span class="katalog-penghitung">3 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label
+              class="katalog-panah katalog-panah-kiri"
+              for="produk-pastri-2"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Puff Pastry"
+            >
+              <svg viewBox="0 0 200 200">
+                <rect
+                  x="36"
+                  y="50"
+                  width="128"
+                  height="30"
+                  rx="15"
+                  fill="#d3a04d"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <rect
+                  x="44"
+                  y="72"
+                  width="112"
+                  height="30"
+                  rx="15"
+                  fill="#e9c27a"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <rect
+                  x="36"
+                  y="94"
+                  width="128"
+                  height="30"
+                  rx="15"
+                  fill="#d3a04d"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <rect
+                  x="44"
+                  y="116"
+                  width="112"
+                  height="30"
+                  rx="15"
+                  fill="#e9c27a"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <rect
+                  x="36"
+                  y="138"
+                  width="128"
+                  height="30"
+                  rx="15"
+                  fill="#d3a04d"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">Puff Pastry</figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-pastri-4"
+              >›</label
+            >
+            <span class="katalog-penghitung">4 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label
+              class="katalog-panah katalog-panah-kiri"
+              for="produk-pastri-3"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Cinnamon Roll"
+            >
+              <svg viewBox="0 0 200 200">
+                <circle
+                  cx="100"
+                  cy="100"
+                  r="82"
+                  fill="#d9a55c"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <path
+                  d="M100 100q10-10 18 0q8 18-16 24q-30 2-34-28q0-36 40-40q44 0 52 42"
+                  stroke="#8a4a22"
+                  stroke-width="9"
+                  fill="none"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">Cinnamon Roll</figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-pastri-5"
+              >›</label
+            >
+            <span class="katalog-penghitung">5 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label
+              class="katalog-panah katalog-panah-kiri"
+              for="produk-pastri-4"
+              >‹</label
+            >
+            <span class="katalog-gambar-besar" role="img" aria-label="Éclair">
+              <svg viewBox="0 0 200 200">
+                <g transform="rotate(-10 100 100)">
+                  <rect
+                    x="18"
+                    y="102"
+                    width="164"
+                    height="42"
+                    rx="21"
+                    fill="#e8c07a"
+                    stroke="rgba(60,30,10,.35)"
+                    stroke-width="2.5"
+                  />
+                  <rect
+                    x="16"
+                    y="64"
+                    width="168"
+                    height="38"
+                    rx="19"
+                    fill="#4a2a1b"
+                    stroke="rgba(60,30,10,.35)"
+                    stroke-width="2.5"
+                  />
+                </g>
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">Éclair</figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-pastri-0"
+              >›</label
+            >
+            <span class="katalog-penghitung">6 / 6</span>
+          </figure>
+        </section>
+
+        <!-- ====== SLIDE: CAKES ====== -->
+        <section class="katalog-slide katalog-slide-kue" id="s-kue">
+          <div class="katalog-judul-raksasa">CAKES</div>
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-kue"
+            id="produk-kue-0"
+            checked
+            aria-label="Black Forest"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-kue"
+            id="produk-kue-1"
+            aria-label="Red Velvet"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-kue"
+            id="produk-kue-2"
+            aria-label="Cheesecake"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-kue"
+            id="produk-kue-3"
+            aria-label="Sponge Cake"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-kue"
+            id="produk-kue-4"
+            aria-label="Chiffon Cake"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-kue"
+            id="produk-kue-5"
+            aria-label="Carrot Cake"
+          />
+
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-kue-5"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Black Forest"
+            >
+              <svg viewBox="0 0 200 200">
+                <rect x="40" y="132" width="120" height="26" fill="#4a2a1b" />
+                <rect x="40" y="122" width="120" height="10" fill="#fff3dc" />
+                <rect x="40" y="96" width="120" height="26" fill="#4a2a1b" />
+                <rect x="40" y="86" width="120" height="10" fill="#fff3dc" />
+                <rect x="40" y="60" width="120" height="26" fill="#4a2a1b" />
+                <rect
+                  x="36"
+                  y="46"
+                  width="128"
+                  height="16"
+                  rx="8"
+                  fill="#fff3dc"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <circle cx="100" cy="38" r="12" fill="#c1121f" />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">
+              Black Forest Cake
+            </figcaption>
+            <label class="katalog-panah katalog-panah-kanan" for="produk-kue-1"
+              >›</label
+            >
+            <span class="katalog-penghitung">1 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-kue-0"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Red Velvet"
+            >
+              <svg viewBox="0 0 200 200">
+                <rect x="40" y="132" width="120" height="26" fill="#b3162a" />
+                <rect x="40" y="122" width="120" height="10" fill="#fffaf0" />
+                <rect x="40" y="96" width="120" height="26" fill="#b3162a" />
+                <rect x="40" y="86" width="120" height="10" fill="#fffaf0" />
+                <rect x="40" y="60" width="120" height="26" fill="#b3162a" />
+                <rect
+                  x="36"
+                  y="46"
+                  width="128"
+                  height="16"
+                  rx="8"
+                  fill="#fffaf0"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">Red Velvet Cake</figcaption>
+            <label class="katalog-panah katalog-panah-kanan" for="produk-kue-2"
+              >›</label
+            >
+            <span class="katalog-penghitung">2 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-kue-1"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Cheesecake"
+            >
+              <svg viewBox="0 0 200 200">
+                <rect x="40" y="142" width="120" height="16" fill="#c18a4a" />
+                <rect x="40" y="72" width="120" height="70" fill="#fbefd0" />
+                <rect
+                  x="36"
+                  y="58"
+                  width="128"
+                  height="16"
+                  rx="8"
+                  fill="#d6283a"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <circle cx="72" cy="53" r="9" fill="#9d1b2f" />
+                <circle cx="100" cy="53" r="9" fill="#9d1b2f" />
+                <circle cx="128" cy="53" r="9" fill="#9d1b2f" />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">Cheesecake</figcaption>
+            <label class="katalog-panah katalog-panah-kanan" for="produk-kue-3"
+              >›</label
+            >
+            <span class="katalog-penghitung">3 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-kue-2"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Sponge Cake"
+            >
+              <svg viewBox="0 0 200 200">
+                <rect x="40" y="130" width="120" height="28" fill="#f3cf6d" />
+                <rect x="40" y="122" width="120" height="8" fill="#d83a4a" />
+                <rect x="40" y="94" width="120" height="28" fill="#f3cf6d" />
+                <rect x="40" y="86" width="120" height="8" fill="#fff3dc" />
+                <rect x="40" y="58" width="120" height="28" fill="#f3cf6d" />
+                <rect
+                  x="36"
+                  y="44"
+                  width="128"
+                  height="16"
+                  rx="8"
+                  fill="#fff3dc"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">Sponge Cake</figcaption>
+            <label class="katalog-panah katalog-panah-kanan" for="produk-kue-4"
+              >›</label
+            >
+            <span class="katalog-penghitung">4 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-kue-3"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Chiffon Cake"
+            >
+              <svg viewBox="0 0 200 200">
+                <rect x="40" y="124" width="120" height="34" fill="#f7e08f" />
+                <rect x="40" y="116" width="120" height="8" fill="#fffdf3" />
+                <rect x="40" y="82" width="120" height="34" fill="#f7e08f" />
+                <rect
+                  x="36"
+                  y="68"
+                  width="128"
+                  height="16"
+                  rx="8"
+                  fill="#fff0b8"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">Chiffon Cake</figcaption>
+            <label class="katalog-panah katalog-panah-kanan" for="produk-kue-5"
+              >›</label
+            >
+            <span class="katalog-penghitung">5 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-kue-4"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Carrot Cake"
+            >
+              <svg viewBox="0 0 200 200">
+                <rect x="40" y="132" width="120" height="26" fill="#c5762f" />
+                <rect x="40" y="122" width="120" height="10" fill="#fff3dc" />
+                <rect x="40" y="96" width="120" height="26" fill="#c5762f" />
+                <rect x="40" y="86" width="120" height="10" fill="#fff3dc" />
+                <rect x="40" y="60" width="120" height="26" fill="#c5762f" />
+                <rect
+                  x="36"
+                  y="46"
+                  width="128"
+                  height="16"
+                  rx="8"
+                  fill="#fff3dc"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <path
+                  d="M84 44l32 0l-16-26z"
+                  fill="#f08a24"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">Carrot Cake</figcaption>
+            <label class="katalog-panah katalog-panah-kanan" for="produk-kue-0"
+              >›</label
+            >
+            <span class="katalog-penghitung">6 / 6</span>
+          </figure>
+        </section>
+
+        <!-- ====== SLIDE: CUPCAKES ====== -->
+        <section class="katalog-slide katalog-slide-cupcake" id="s-cupcake">
+          <div class="katalog-judul-raksasa">CUPCAKES</div>
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-cupcake"
+            id="produk-cupcake-0"
+            checked
+            aria-label="Vanilla Cupcake"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-cupcake"
+            id="produk-cupcake-1"
+            aria-label="Chocolate Cupcake"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-cupcake"
+            id="produk-cupcake-2"
+            aria-label="Salted Caramel"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-cupcake"
+            id="produk-cupcake-3"
+            aria-label="Red Velvet Cupcake"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-cupcake"
+            id="produk-cupcake-4"
+            aria-label="Lemon Raspberry"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-cupcake"
+            id="produk-cupcake-5"
+            aria-label="Peanut Butter"
+          />
+
+          <figure class="katalog-produk">
+            <label
+              class="katalog-panah katalog-panah-kiri"
+              for="produk-cupcake-5"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Vanilla Cupcake"
+            >
+              <svg viewBox="0 0 200 200">
+                <path
+                  d="M50 108L150 108L138 172L62 172Z"
+                  fill="#e9d3a5"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <ellipse
+                  cx="100"
+                  cy="106"
+                  rx="62"
+                  ry="20"
+                  fill="#f8eccb"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <ellipse
+                  cx="100"
+                  cy="86"
+                  rx="48"
+                  ry="18"
+                  fill="#f8eccb"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <ellipse
+                  cx="100"
+                  cy="67"
+                  rx="34"
+                  ry="16"
+                  fill="#f8eccb"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <ellipse
+                  cx="100"
+                  cy="50"
+                  rx="16"
+                  ry="12"
+                  fill="#f8eccb"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">
+              Vanilla Bean Cupcake
+            </figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-cupcake-1"
+              >›</label
+            >
+            <span class="katalog-penghitung">1 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label
+              class="katalog-panah katalog-panah-kiri"
+              for="produk-cupcake-0"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Chocolate Cupcake"
+            >
+              <svg viewBox="0 0 200 200">
+                <path
+                  d="M50 108L150 108L138 172L62 172Z"
+                  fill="#8a5a3c"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <ellipse
+                  cx="100"
+                  cy="106"
+                  rx="62"
+                  ry="20"
+                  fill="#4a2a1b"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <ellipse
+                  cx="100"
+                  cy="86"
+                  rx="48"
+                  ry="18"
+                  fill="#4a2a1b"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <ellipse
+                  cx="100"
+                  cy="67"
+                  rx="34"
+                  ry="16"
+                  fill="#4a2a1b"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <ellipse
+                  cx="100"
+                  cy="50"
+                  rx="16"
+                  ry="12"
+                  fill="#4a2a1b"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">
+              Chocolate Ganache Cupcake
+            </figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-cupcake-2"
+              >›</label
+            >
+            <span class="katalog-penghitung">2 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label
+              class="katalog-panah katalog-panah-kiri"
+              for="produk-cupcake-1"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Salted Caramel Cupcake"
+            >
+              <svg viewBox="0 0 200 200">
+                <path
+                  d="M50 108L150 108L138 172L62 172Z"
+                  fill="#f0e0c0"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <ellipse
+                  cx="100"
+                  cy="106"
+                  rx="62"
+                  ry="20"
+                  fill="#e8b86d"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <ellipse
+                  cx="100"
+                  cy="86"
+                  rx="48"
+                  ry="18"
+                  fill="#e8b86d"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <ellipse
+                  cx="100"
+                  cy="67"
+                  rx="34"
+                  ry="16"
+                  fill="#e8b86d"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">
+              Salted Caramel Cupcake
+            </figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-cupcake-3"
+              >›</label
+            >
+            <span class="katalog-penghitung">3 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label
+              class="katalog-panah katalog-panah-kiri"
+              for="produk-cupcake-2"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Red Velvet Cupcake"
+            >
+              <svg viewBox="0 0 200 200">
+                <path
+                  d="M50 108L150 108L138 172L62 172Z"
+                  fill="#b3162a"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <ellipse
+                  cx="100"
+                  cy="106"
+                  rx="62"
+                  ry="20"
+                  fill="#fffaf0"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <ellipse
+                  cx="100"
+                  cy="86"
+                  rx="48"
+                  ry="18"
+                  fill="#fffaf0"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <ellipse
+                  cx="100"
+                  cy="67"
+                  rx="34"
+                  ry="16"
+                  fill="#fffaf0"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">
+              Red Velvet Cupcake
+            </figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-cupcake-4"
+              >›</label
+            >
+            <span class="katalog-penghitung">4 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label
+              class="katalog-panah katalog-panah-kiri"
+              for="produk-cupcake-3"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Lemon Raspberry Cupcake"
+            >
+              <svg viewBox="0 0 200 200">
+                <path
+                  d="M50 108L150 108L138 172L62 172Z"
+                  fill="#f6c8d0"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <ellipse
+                  cx="100"
+                  cy="106"
+                  rx="62"
+                  ry="20"
+                  fill="#f7e36d"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <ellipse
+                  cx="100"
+                  cy="86"
+                  rx="48"
+                  ry="18"
+                  fill="#f7e36d"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <circle cx="100" cy="38" r="13" fill="#c2185b" />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">
+              Lemon Raspberry Cupcake
+            </figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-cupcake-5"
+              >›</label
+            >
+            <span class="katalog-penghitung">5 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label
+              class="katalog-panah katalog-panah-kiri"
+              for="produk-cupcake-4"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Peanut Butter Cupcake"
+            >
+              <svg viewBox="0 0 200 200">
+                <path
+                  d="M50 108L150 108L138 172L62 172Z"
+                  fill="#e6c28a"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <ellipse
+                  cx="100"
+                  cy="106"
+                  rx="62"
+                  ry="20"
+                  fill="#cf9a56"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <ellipse
+                  cx="100"
+                  cy="86"
+                  rx="48"
+                  ry="18"
+                  fill="#cf9a56"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">
+              Peanut Butter Cupcake
+            </figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-cupcake-0"
+              >›</label
+            >
+            <span class="katalog-penghitung">6 / 6</span>
+          </figure>
+        </section>
+
+        <!-- ====== SLIDE: COOKIES ====== -->
+        <section class="katalog-slide katalog-slide-kukis" id="s-kukis">
+          <div class="katalog-judul-raksasa">COOKIES</div>
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-kukis"
+            id="produk-kukis-0"
+            checked
+            aria-label="Chocolate Chip"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-kukis"
+            id="produk-kukis-1"
+            aria-label="Oatmeal Raisin"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-kukis"
+            id="produk-kukis-2"
+            aria-label="Double Chocolate"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-kukis"
+            id="produk-kukis-3"
+            aria-label="Macarons"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-kukis"
+            id="produk-kukis-4"
+            aria-label="Shortbread"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-kukis"
+            id="produk-kukis-5"
+            aria-label="Snickerdoodles"
+          />
+
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-kukis-5"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Chocolate Chip Cookies"
+            >
+              <svg viewBox="0 0 200 200">
+                <circle
+                  cx="100"
+                  cy="104"
+                  r="80"
+                  fill="#d9a560"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <circle cx="43" cy="71" r="8" fill="#4a2a1b" />
+                <circle cx="112" cy="44" r="8" fill="#4a2a1b" />
+                <circle cx="154" cy="92" r="8" fill="#4a2a1b" />
+                <circle cx="82" cy="113" r="8" fill="#4a2a1b" />
+                <circle cx="133" cy="152" r="8" fill="#4a2a1b" />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">
+              Chocolate Chip Cookies
+            </figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-kukis-1"
+              >›</label
+            >
+            <span class="katalog-penghitung">1 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-kukis-0"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Oatmeal Raisin Cookies"
+            >
+              <svg viewBox="0 0 200 200">
+                <circle
+                  cx="100"
+                  cy="104"
+                  r="80"
+                  fill="#c99a5b"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <circle cx="43" cy="71" r="7" fill="#5a2f3f" />
+                <circle cx="112" cy="44" r="7" fill="#5a2f3f" />
+                <circle cx="154" cy="92" r="7" fill="#5a2f3f" />
+                <circle cx="82" cy="113" r="7" fill="#5a2f3f" />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">
+              Oatmeal Raisin Cookies
+            </figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-kukis-2"
+              >›</label
+            >
+            <span class="katalog-penghitung">2 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-kukis-1"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Double Chocolate Cookies"
+            >
+              <svg viewBox="0 0 200 200">
+                <circle
+                  cx="100"
+                  cy="104"
+                  r="80"
+                  fill="#5a321f"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <circle cx="43" cy="71" r="8" fill="#a46a44" />
+                <circle cx="112" cy="44" r="8" fill="#a46a44" />
+                <circle cx="154" cy="92" r="8" fill="#a46a44" />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">
+              Double Chocolate Cookies
+            </figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-kukis-3"
+              >›</label
+            >
+            <span class="katalog-penghitung">3 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-kukis-2"
+              >‹</label
+            >
+            <span class="katalog-gambar-besar" role="img" aria-label="Macarons">
+              <svg viewBox="0 0 200 200">
+                <path
+                  d="M32 100Q32 38 100 38Q168 38 168 100Z"
+                  fill="#f4a6b9"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <path
+                  d="M32 118Q32 180 100 180Q168 180 168 118Z"
+                  fill="#f4a6b9"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <rect
+                  x="30"
+                  y="98"
+                  width="140"
+                  height="22"
+                  rx="11"
+                  fill="#fff3dc"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">Macarons</figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-kukis-4"
+              >›</label
+            >
+            <span class="katalog-penghitung">4 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-kukis-3"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Shortbread Cookies"
+            >
+              <svg viewBox="0 0 200 200">
+                <circle
+                  cx="100"
+                  cy="104"
+                  r="80"
+                  fill="#efd08c"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <circle
+                  cx="100"
+                  cy="104"
+                  r="68"
+                  fill="none"
+                  stroke="#d3a95a"
+                  stroke-width="4"
+                  stroke-dasharray="2 9"
+                />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">
+              Shortbread Cookies
+            </figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-kukis-5"
+              >›</label
+            >
+            <span class="katalog-penghitung">5 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-kukis-4"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Snickerdoodles"
+            >
+              <svg viewBox="0 0 200 200">
+                <circle
+                  cx="100"
+                  cy="104"
+                  r="80"
+                  fill="#d9a566"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <path
+                  d="M56 82l22 14l-8 22M122 66l-12 24l22 10M112 134l22 14"
+                  stroke="#a46a30"
+                  stroke-width="3.5"
+                  fill="none"
+                />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">Snickerdoodles</figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-kukis-0"
+              >›</label
+            >
+            <span class="katalog-penghitung">6 / 6</span>
+          </figure>
+        </section>
+
+        <!-- ====== SLIDE: BISCUITS ====== -->
+        <section class="katalog-slide katalog-slide-biskuit" id="s-biskuit">
+          <div class="katalog-judul-raksasa">BISCUITS</div>
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-biskuit"
+            id="produk-biskuit-0"
+            checked
+            aria-label="Butter Biscuits"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-biskuit"
+            id="produk-biskuit-1"
+            aria-label="Digestives"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-biskuit"
+            id="produk-biskuit-2"
+            aria-label="Biscotti"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-biskuit"
+            id="produk-biskuit-3"
+            aria-label="Savory Cheese"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-biskuit"
+            id="produk-biskuit-4"
+            aria-label="Scones"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-biskuit"
+            id="produk-biskuit-5"
+            aria-label="Shortbread"
+          />
+
+          <figure class="katalog-produk">
+            <label
+              class="katalog-panah katalog-panah-kiri"
+              for="produk-biskuit-5"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Butter Biscuits"
+            >
+              <svg viewBox="0 0 200 200">
+                <rect
+                  x="34"
+                  y="34"
+                  width="132"
+                  height="132"
+                  rx="16"
+                  fill="#f0cf8a"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <circle cx="70" cy="70" r="4.5" fill="#c99a4c" />
+                <circle cx="100" cy="100" r="4.5" fill="#c99a4c" />
+                <circle cx="130" cy="130" r="4.5" fill="#c99a4c" />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">Butter Biscuits</figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-biskuit-1"
+              >›</label
+            >
+            <span class="katalog-penghitung">1 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label
+              class="katalog-panah katalog-panah-kiri"
+              for="produk-biskuit-0"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Digestives"
+            >
+              <svg viewBox="0 0 200 200">
+                <circle
+                  cx="100"
+                  cy="104"
+                  r="80"
+                  fill="#d4a35e"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <circle
+                  cx="100"
+                  cy="104"
+                  r="70"
+                  fill="none"
+                  stroke="#b88543"
+                  stroke-width="3"
+                  stroke-dasharray="3 6"
+                />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">Digestives</figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-biskuit-2"
+              >›</label
+            >
+            <span class="katalog-penghitung">2 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label
+              class="katalog-panah katalog-panah-kiri"
+              for="produk-biskuit-1"
+              >‹</label
+            >
+            <span class="katalog-gambar-besar" role="img" aria-label="Biscotti">
+              <svg viewBox="0 0 200 200">
+                <g transform="rotate(-12 100 80)">
+                  <rect
+                    x="22"
+                    y="52"
+                    width="156"
+                    height="48"
+                    rx="14"
+                    fill="#dfb77c"
+                    stroke="rgba(60,30,10,.35)"
+                    stroke-width="2.5"
+                  />
+                </g>
+                <g transform="rotate(-8 100 135)">
+                  <rect
+                    x="22"
+                    y="112"
+                    width="156"
+                    height="48"
+                    rx="14"
+                    fill="#dfb77c"
+                    stroke="rgba(60,30,10,.35)"
+                    stroke-width="2.5"
+                  />
+                </g>
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">Biscotti</figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-biskuit-3"
+              >›</label
+            >
+            <span class="katalog-penghitung">3 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label
+              class="katalog-panah katalog-panah-kiri"
+              for="produk-biskuit-2"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Savory Cheese"
+            >
+              <svg viewBox="0 0 200 200">
+                <ellipse
+                  cx="100"
+                  cy="116"
+                  rx="80"
+                  ry="58"
+                  fill="#e0a54a"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <circle cx="54" cy="86" r="6" fill="#f6c344" />
+                <circle cx="110" cy="64" r="6" fill="#f6c344" />
+                <circle cx="143" cy="102" r="6" fill="#f6c344" />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">
+              Savory Cheese Biscuits
+            </figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-biskuit-4"
+              >›</label
+            >
+            <span class="katalog-penghitung">4 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label
+              class="katalog-panah katalog-panah-kiri"
+              for="produk-biskuit-3"
+              >‹</label
+            >
+            <span class="katalog-gambar-besar" role="img" aria-label="Scones">
+              <svg viewBox="0 0 200 200">
+                <path
+                  d="M100 38Q150 70 168 150Q100 170 32 150Q50 70 100 38Z"
+                  fill="#d9a35c"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <circle cx="100" cy="90" r="17" fill="#fffaf0" />
+                <circle cx="100" cy="86" r="9" fill="#c2185b" />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">Scones</figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-biskuit-5"
+              >›</label
+            >
+            <span class="katalog-penghitung">5 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label
+              class="katalog-panah katalog-panah-kiri"
+              for="produk-biskuit-4"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Shortbread"
+            >
+              <svg viewBox="0 0 200 200">
+                <g transform="rotate(-6 100 70)">
+                  <rect
+                    x="20"
+                    y="42"
+                    width="160"
+                    height="46"
+                    rx="8"
+                    fill="#efd08c"
+                    stroke="rgba(60,30,10,.35)"
+                    stroke-width="2.5"
+                  />
+                </g>
+                <g transform="rotate(4 100 135)">
+                  <rect
+                    x="20"
+                    y="110"
+                    width="160"
+                    height="46"
+                    rx="8"
+                    fill="#efd08c"
+                    stroke="rgba(60,30,10,.35)"
+                    stroke-width="2.5"
+                  />
+                </g>
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">
+              Shortbread Biscuits
+            </figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-biskuit-0"
+              >›</label
+            >
+            <span class="katalog-penghitung">6 / 6</span>
+          </figure>
+        </section>
+
+        <!-- ====== SLIDE: MUFFINS ====== -->
+        <section class="katalog-slide katalog-slide-mufin" id="s-mufin">
+          <div class="katalog-judul-raksasa">MUFFINS</div>
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-mufin"
+            id="produk-mufin-0"
+            checked
+            aria-label="Blueberry"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-mufin"
+            id="produk-mufin-1"
+            aria-label="Chocolate Chip"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-mufin"
+            id="produk-mufin-2"
+            aria-label="Banana Nut"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-mufin"
+            id="produk-mufin-3"
+            aria-label="Double Chocolate"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-mufin"
+            id="produk-mufin-4"
+            aria-label="Apple Cinnamon"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-mufin"
+            id="produk-mufin-5"
+            aria-label="Lemon Poppyseed"
+          />
+
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-mufin-5"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Blueberry Muffin"
+            >
+              <svg viewBox="0 0 200 200">
+                <path
+                  d="M46 120L154 120L140 176L60 176Z"
+                  fill="#e9d3a5"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <path
+                  d="M30 124Q28 50 100 48Q172 50 170 124Q100 138 30 124Z"
+                  fill="#d9a560"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <circle cx="68" cy="71" r="7" fill="#3d4a99" />
+                <circle cx="107" cy="56" r="7" fill="#3d4a99" />
+                <circle cx="131" cy="83" r="7" fill="#3d4a99" />
+                <circle cx="90" cy="95" r="7" fill="#3d4a99" />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">
+              Blueberry Muffin
+            </figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-mufin-1"
+              >›</label
+            >
+            <span class="katalog-penghitung">1 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-mufin-0"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Chocolate Chip Muffin"
+            >
+              <svg viewBox="0 0 200 200">
+                <path
+                  d="M46 120L154 120L140 176L60 176Z"
+                  fill="#e9d3a5"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <path
+                  d="M30 124Q28 50 100 48Q172 50 170 124Q100 138 30 124Z"
+                  fill="#d2995a"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <circle cx="68" cy="71" r="5" fill="#4a2a1b" />
+                <circle cx="107" cy="56" r="5" fill="#4a2a1b" />
+                <circle cx="131" cy="83" r="5" fill="#4a2a1b" />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">
+              Chocolate Chip Muffin
+            </figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-mufin-2"
+              >›</label
+            >
+            <span class="katalog-penghitung">2 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-mufin-1"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Banana Nut Muffin"
+            >
+              <svg viewBox="0 0 200 200">
+                <path
+                  d="M46 120L154 120L140 176L60 176Z"
+                  fill="#f2e3a1"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <path
+                  d="M30 124Q28 50 100 48Q172 50 170 124Q100 138 30 124Z"
+                  fill="#e5b25e"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <circle cx="68" cy="71" r="6" fill="#8a5a2b" />
+                <circle cx="107" cy="56" r="6" fill="#8a5a2b" />
+                <circle cx="131" cy="83" r="6" fill="#8a5a2b" />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">
+              Banana Nut Muffin
+            </figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-mufin-3"
+              >›</label
+            >
+            <span class="katalog-penghitung">3 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-mufin-2"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Double Chocolate Muffin"
+            >
+              <svg viewBox="0 0 200 200">
+                <path
+                  d="M46 120L154 120L140 176L60 176Z"
+                  fill="#8a5a3c"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <path
+                  d="M30 124Q28 50 100 48Q172 50 170 124Q100 138 30 124Z"
+                  fill="#5a321f"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">
+              Double Chocolate Muffin
+            </figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-mufin-4"
+              >›</label
+            >
+            <span class="katalog-penghitung">4 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-mufin-3"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Apple Cinnamon Muffin"
+            >
+              <svg viewBox="0 0 200 200">
+                <path
+                  d="M46 120L154 120L140 176L60 176Z"
+                  fill="#e9d3a5"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <path
+                  d="M30 124Q28 50 100 48Q172 50 170 124Q100 138 30 124Z"
+                  fill="#d9a560"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <rect
+                  x="62"
+                  y="65"
+                  width="12"
+                  height="12"
+                  rx="2"
+                  fill="#f6e7b0"
+                />
+                <rect
+                  x="101"
+                  y="50"
+                  width="12"
+                  height="12"
+                  rx="2"
+                  fill="#f6e7b0"
+                />
+                <rect
+                  x="125"
+                  y="77"
+                  width="12"
+                  height="12"
+                  rx="2"
+                  fill="#f6e7b0"
+                />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">
+              Apple Cinnamon Muffin
+            </figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-mufin-5"
+              >›</label
+            >
+            <span class="katalog-penghitung">5 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-mufin-4"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Lemon Poppyseed Muffin"
+            >
+              <svg viewBox="0 0 200 200">
+                <path
+                  d="M46 120L154 120L140 176L60 176Z"
+                  fill="#f2c94c"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <path
+                  d="M30 124Q28 50 100 48Q172 50 170 124Q100 138 30 124Z"
+                  fill="#f2d768"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <circle cx="68" cy="71" r="2.4" fill="#2a2a33" />
+                <circle cx="107" cy="56" r="2.4" fill="#2a2a33" />
+                <circle cx="131" cy="83" r="2.4" fill="#2a2a33" />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">
+              Lemon Poppyseed Muffin
+            </figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-mufin-0"
+              >›</label
+            >
+            <span class="katalog-penghitung">6 / 6</span>
+          </figure>
+        </section>
+
+        <!-- ====== SLIDE: DOUGHNUTS ====== -->
+        <section class="katalog-slide katalog-slide-donat" id="s-donat">
+          <div class="katalog-judul-raksasa">DOUGHNUTS</div>
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-donat"
+            id="produk-donat-0"
+            checked
+            aria-label="Glazed Ring"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-donat"
+            id="produk-donat-1"
+            aria-label="Boston Cream"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-donat"
+            id="produk-donat-2"
+            aria-label="Jelly Filled"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-donat"
+            id="produk-donat-3"
+            aria-label="Cinnamon Sugar"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-donat"
+            id="produk-donat-4"
+            aria-label="Chocolate Frosted"
+          />
+          <input
+            class="katalog-radio"
+            type="radio"
+            name="p-donat"
+            id="produk-donat-5"
+            aria-label="Old-Fashioned"
+          />
+
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-donat-5"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Glazed Ring"
+            >
+              <svg viewBox="0 0 200 200">
+                <path
+                  fill-rule="evenodd"
+                  d="M16 100a84 84 0 1 0 168 0a84 84 0 1 0 -168 0zM76 100a24 24 0 1 1 48 0a24 24 0 1 1 -48 0z"
+                  fill="#d9a35c"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M26 100a74 74 0 1 0 148 0a74 74 0 1 0 -148 0zM70 100a30 30 0 1 1 60 0a30 30 0 1 1 -60 0z"
+                  fill="#fff0cf"
+                  opacity="0.9"
+                />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">
+              Glazed Ring Doughnut
+            </figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-donat-1"
+              >›</label
+            >
+            <span class="katalog-penghitung">1 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-donat-0"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Boston Cream"
+            >
+              <svg viewBox="0 0 200 200">
+                <circle
+                  cx="100"
+                  cy="100"
+                  r="82"
+                  fill="#e4b06a"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <circle cx="100" cy="100" r="72" fill="#4a2a1b" />
+                <path
+                  d="M48 100q12-14 26 0t26 0t26 0t26 0"
+                  stroke="#fff3dc"
+                  stroke-width="7"
+                  fill="none"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">
+              Boston Cream Doughnut
+            </figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-donat-2"
+              >›</label
+            >
+            <span class="katalog-penghitung">2 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-donat-1"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Jelly Filled"
+            >
+              <svg viewBox="0 0 200 200">
+                <circle
+                  cx="100"
+                  cy="100"
+                  r="82"
+                  fill="#e0a257"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <circle cx="100" cy="100" r="18" fill="#c0213a" />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">
+              Jelly Filled Doughnut
+            </figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-donat-3"
+              >›</label
+            >
+            <span class="katalog-penghitung">3 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-donat-2"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Cinnamon Sugar"
+            >
+              <svg viewBox="0 0 200 200">
+                <path
+                  fill-rule="evenodd"
+                  d="M16 100a84 84 0 1 0 168 0a84 84 0 1 0 -168 0zM76 100a24 24 0 1 1 48 0a24 24 0 1 1 -48 0z"
+                  fill="#d9a35c"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <circle cx="39" cy="65" r="3" fill="#9a5224" />
+                <circle cx="113" cy="36" r="3" fill="#9a5224" />
+                <circle cx="158" cy="87" r="3" fill="#9a5224" />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">
+              Cinnamon Sugar Doughnut
+            </figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-donat-4"
+              >›</label
+            >
+            <span class="katalog-penghitung">4 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-donat-3"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Chocolate Frosted"
+            >
+              <svg viewBox="0 0 200 200">
+                <path
+                  fill-rule="evenodd"
+                  d="M16 100a84 84 0 1 0 168 0a84 84 0 1 0 -168 0zM76 100a24 24 0 1 1 48 0a24 24 0 1 1 -48 0z"
+                  fill="#d9a35c"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M26 100a74 74 0 1 0 148 0a74 74 0 1 0 -148 0zM70 100a30 30 0 1 1 60 0a30 30 0 1 1 -60 0z"
+                  fill="#5a2e1c"
+                />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">
+              Chocolate Frosted Doughnut
+            </figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-donat-5"
+              >›</label
+            >
+            <span class="katalog-penghitung">5 / 6</span>
+          </figure>
+          <figure class="katalog-produk">
+            <label class="katalog-panah katalog-panah-kiri" for="produk-donat-4"
+              >‹</label
+            >
+            <span
+              class="katalog-gambar-besar"
+              role="img"
+              aria-label="Old-Fashioned"
+            >
+              <svg viewBox="0 0 200 200">
+                <path
+                  fill-rule="evenodd"
+                  d="M16 100a84 84 0 1 0 168 0a84 84 0 1 0 -168 0zM76 100a24 24 0 1 1 48 0a24 24 0 1 1 -48 0z"
+                  fill="#d1964e"
+                  stroke="rgba(60,30,10,.35)"
+                  stroke-width="2.5"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M26 100a74 74 0 1 0 148 0a74 74 0 1 0 -148 0zM70 100a30 30 0 1 1 60 0a30 30 0 1 1 -60 0z"
+                  fill="#f6e3b8"
+                  opacity="0.8"
+                />
+              </svg>
+            </span>
+            <figcaption class="katalog-nama-produk">
+              Old-Fashioned Sour Cream Doughnut
+            </figcaption>
+            <label
+              class="katalog-panah katalog-panah-kanan"
+              for="produk-donat-0"
+              >›</label
+            >
+            <span class="katalog-penghitung">6 / 6</span>
+          </figure>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

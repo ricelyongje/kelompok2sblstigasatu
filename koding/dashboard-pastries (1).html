@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pastries — Baked & Co.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dasbor-halaman">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sidebar-atas">
+      <div class="sidebar-merek">
+        <div class="sidebar-logo-bulat"><span class="ikon">bakery_dining</span></div>
+        <div class="sidebar-merek-teks">
+          <span class="sidebar-nama">Baked & Co.</span>
+          <span class="sidebar-sub">Artisan Catalog</span>
+        </div>
+      </div>
+
+      <div class="sidebar-nav-area">
+        <p class="sidebar-nav-label">Bakes Navigation</p>
+        <nav class="sidebar-nav">
+          <a href="dashboard-home.html" class="sidebar-tautan">Home</a>
+          <a href="catalog.html" class="sidebar-tautan">Breads</a>
+          <a href="index.html" class="sidebar-tautan aktif">Pastries</a>
+          <a href="catalog.html" class="sidebar-tautan">Cakes</a>
+          <a href="catalog.html" class="sidebar-tautan">Cupcakes</a>
+          <a href="catalog.html" class="sidebar-tautan">Cookies</a>
+          <a href="catalog.html" class="sidebar-tautan">Biscuits</a>
+          <a href="catalog.html" class="sidebar-tautan">Muffins</a>
+          <a href="catalog.html" class="sidebar-tautan">Doughnuts</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="sidebar-bawah">
+      <div class="sidebar-kartu-merek">
+        <a href="index.html" class="sidebar-kartu-tautan">
+          <div class="sidebar-kartu-logo"><span class="ikon">bakery_dining</span></div>
+          <div class="sidebar-kartu-teks">
+            <span class="nama">Baked & Co.</span>
+            <span class="lencana-artisan" style="color:var(--sekunder);">Back to Home</span>
+          </div>
+        </a>
+        <p class="teks-kecil warna-varian">Sleman, Yogyakarta • Daily 06:00 - 21:00 WIB</p>
+      </div>
+    </div>
+  </aside>
+
+  <!-- KONTEN -->
+  <div class="dasbor-konten">
+
+    <!-- HEADER DASBOR -->
+    <header class="header-dasbor">
+      <div class="header-dasbor-dalam">
+        <div class="header-dasbor-kiri">
+          <span class="header-jadwal-badge">Daily Oven Schedule: 06.00 & 15.00 WIB</span>
+        </div>
+        <div class="header-dasbor-kanan">
+          <div class="pencarian-dasbor">
+            <div class="pencarian-dasbor-kotak">
+              <span class="ikon">search</span>
+              <input type="text" placeholder="Search artisan bakes...">
+              <span class="pencarian-badge-k2">K2</span>
+            </div>
+            <div class="pencarian-panel">
+              <div class="pencarian-panel-judul">
+                <span class="judul-kecil">Project Team</span>
+                <span class="lencana lencana-sekunder">XI 3.1 • Kelompok 2</span>
+              </div>
+              <p class="teks-kecil" style="margin-bottom:0.75rem;color:var(--di-permukaan-varian);">
+                Special digital curation team for Baked & Co. Artisan Showcase:
+              </p>
+              <ul>
+                <li><span>Abigail Gracia Kirana</span><span>01</span></li>
+                <li><span>Agnes Cara Chrisgenoveva</span><span>20</span></li>
+                <li><span>Alexandra Vanny P. P.</span><span>26</span></li>
+                <li><span>Richelle Jordan Hoo</span><span>32</span></li>
+                <li><span>Arabella Syaqila Putri</span><span>35</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="avatar"><span class="ikon" style="font-size:18px;">person</span></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main style="background:var(--permukaan);min-height:calc(100vh - 5rem);">
+      <div style="display:flex;flex-direction:column;width:100%;">
+
+        <!-- STAGE PASTRIES -->
+        <section class="pastri-stage">
+          <!-- Blob latar -->
+          <div class="pastri-blob-1"></div>
+          <div class="pastri-blob-2"></div>
+
+          <!-- Watermark -->
+          <div class="pastri-watermark-wrap">
+            <span class="pastri-watermark">PASTRIES</span>
+          </div>
+
+          <!-- Top bar -->
+          <div class="pastri-topbar">
+            <div class="pastri-topbar-kiri">
+              <span class="pastri-kategori-badge">
+                <span class="dot denyut"></span>
+                Category 02 // Viennoiserie
+              </span>
+              <span class="pastri-info-tag">Normandy Beurre AOP • 81 Flaky Layers</span>
+            </div>
+            <div class="pastri-oven-badge">
+              <span class="ikon">local_fire_department</span>
+              <span>Oven Batch: 06.00 & 15.00 WIB</span>
+            </div>
+          </div>
+
+          <!-- Center stage -->
+          <div class="pastri-center">
+            <div class="pastri-hero-wrap">
+              <div class="pastri-bayangan"></div>
+
+              <div class="pastri-gambar-utama" id="wadahProduk">
+                <img id="gambarProduk"
+                     src="https://lh3.googleusercontent.com/aida-public/AB6AXuClZzYN4-gbuROLfu3cNTu-if7W03Z-2Dv3hQy6yPngo6tfVRCw570qNda4a5ckpfZxhoKiPvLvUH6duY_LGGZCVOa8T7r0YEZFedj1VXJUq9YIpZ8hVnrN792tcRubbGSd1eqPJDuH0lazuonLN7EW2uyxoQ8WFsgrAOR2as6-tcZwlykCrz-VYZ2e7kHKfSO7rK5tL8VDNANTEShqY1ioP1X1UjS8-lbyJJlYpw"
+                     alt="French butter croissant">
+              </div>
+
+              <!-- Spec kiri -->
+              <div class="pastri-spec kiri">
+                <span class="label-kecil">Hydration & Proof</span>
+                <span class="judul-kecil">36 Jam Dingin</span>
+                <span class="teks-kecil">Laminasi mentega Prancis 84%</span>
+              </div>
+
+              <!-- Spec kanan -->
+              <div class="pastri-spec kanan">
+                <span class="label-kecil">Sensory Profile</span>
+                <span class="judul-kecil">Crisp & Nutty</span>
+                <span class="teks-kecil">Crumb sarang lebah sempurna</span>
+              </div>
+            </div>
+
+            <!-- Judul & harga -->
+            <div class="pastri-judul-area">
+              <div class="pastri-jumlah-label">
+                <span class="garis"></span>
+                <span class="teks" id="labelUrutan">Produk 01 dari 06</span>
+                <span class="garis"></span>
+              </div>
+              <h1 class="pastri-nama-produk" id="judulProduk">Croissant</h1>
+              <p class="pastri-subjudul" id="subjudulProduk">Classic Golden Butter Croissant</p>
+              <div class="pastri-harga-aksi">
+                <span class="pastri-harga" id="hargaProduk">Rp 28.000</span>
+                <button class="pastri-tombol-beli" type="button">
+                  <span class="ikon">shopping_bag</span>
+                  <span>Tambah ke Keranjang</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Panah navigasi -->
+            <div class="pastri-panah-area">
+              <button class="pastri-panah" id="tombolSebelum" aria-label="Previous Pastry">
+                <span class="ikon">arrow_back</span>
+              </button>
+              <button class="pastri-panah" id="tombolBerikut" aria-label="Next Pastry">
+                <span class="ikon">arrow_forward</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Tab strip -->
+          <div class="pastri-tab-wrap">
+            <div class="pastri-tab-strip">
+              <button class="pastri-tab aktif" data-index="0">
+                <span class="titik"></span>
+                <span>1. Croissant</span>
+              </button>
+              <button class="pastri-tab" data-index="1">
+                <span class="titik"></span>
+                <span>2. Pain au Chocolat</span>
+              </button>
+              <button class="pastri-tab" data-index="2">
+                <span class="titik"></span>
+                <span>3. Danish</span>
+              </button>
+              <button class="pastri-tab" data-index="3">
+                <span class="titik"></span>
+                <span>4. Puff Pastry</span>
+              </button>
+              <button class="pastri-tab" data-index="4">
+                <span class="titik"></span>
+                <span>5. Cinnamon Roll</span>
+              </button>
+              <button class="pastri-tab" data-index="5">
+                <span class="titik"></span>
+                <span>6. Éclair</span>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- STORY BENTO -->
+        <section class="pastri-story">
+          <div class="pastri-story-dalam">
+            <div class="pastri-story-header">
+              <div>
+                <span class="lencana-artisan" style="color:var(--sekunder);">Seni Viennoiserie Sleman</span>
+                <h2 class="judul-besar warna-utama" style="font-weight:700;">Karakteristik Lapisan Pastry Kami</h2>
+              </div>
+              <p class="teks-sedang">
+                Setiap produk dipanggang dengan metode lamination klasik: mentega murni
+                Prancis dilipat bertahap menghasilkan renyah di luar dan lembut mentega
+                di dalam.
+              </p>
+            </div>
+
+            <div class="pastri-story-grid">
+              <div class="kartu-story">
+                <div>
+                  <div class="kartu-story-ikon"><span class="ikon">workspace_premium</span></div>
+                  <h3>Normandy Butter 84%</h3>
+                  <p>Kandungan lemak tinggi menghasilkan aroma nutty alami dan tekstur
+                    honeycomb yang renyah mekar seketika.</p>
+                </div>
+                <div class="kartu-story-bawah">
+                  <span>Standar AOP Prancis</span>
+                  <span class="ikon">verified</span>
+                </div>
+              </div>
+
+              <div class="kartu-story">
+                <div>
+                  <div class="kartu-story-ikon"><span class="ikon">timer</span></div>
+                  <h3>Cold Retardation 36h</h3>
+                  <p>Fermentasi lambat pada suhu terkontrol memberi ragi waktu memecah
+                    pati menjadi gula karamel alami.</p>
+                </div>
+                <div class="kartu-story-bawah">
+                  <span>Suhu 4°C Terjaga</span>
+                  <span class="ikon">thermostat</span>
+                </div>
+              </div>
+
+              <div class="kartu-story">
+                <div>
+                  <div class="kartu-story-ikon"><span class="ikon">outdoor_grill</span></div>
+                  <h3>Deck Oven Steam Injected</h3>
+                  <p>Penyemprotan uap panas pada menit awal memanggang memastikan
+                    ekspansi volume maksimal dan kilau kulit keemasan.</p>
+                </div>
+                <div class="kartu-story-bawah">
+                  <span>Suhu 210°C Merata</span>
+                  <span class="ikon">heat_pump</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer style="width:100%;background:var(--permukaan-rendah);padding:var(--sp-xl) 0 var(--sp-lg);box-shadow:0 -4px 20px -4px rgba(122,74,40,0.03);">
+      <div style="padding:0 var(--sp-lg);">
+        <div style="display:grid;grid-template-columns:1fr;gap:var(--sp-lg);padding-bottom:var(--sp-lg);">
+          <div style="display:flex;flex-direction:column;gap:var(--sp-xs);">
+            <div style="display:flex;align-items:center;gap:var(--sp-xs);color:var(--utama);">
+              <span class="ikon" style="font-size:20px;">pin_drop</span>
+              <span class="judul-kecil">Lokasi & Jam Operasional</span>
+            </div>
+            <p class="teks-sedang" style="color:var(--di-permukaan);">Jl. Gandum Emas No. 12, Sleman, Yogyakarta</p>
+            <p class="teks-kecil warna-varian">Buka setiap hari 06.00 – 21.00 WIB • Roti hangat oven: 06.00 & 15.00 WIB</p>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:var(--sp-md);">
+            <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" style="display:flex;align-items:center;gap:var(--sp-xs);padding:var(--sp-sm);border-radius:var(--sudut-lg);background:var(--permukaan-terendah);color:var(--utama);">
+              <span class="ikon" style="font-size:20px;color:var(--utama);">chat</span>
+              <span class="label-kecil warna-utama">WhatsApp: +62 812-3456-7890</span>
+            </a>
+            <a href="https://instagram.com/bakedandco.id" target="_blank" rel="noopener noreferrer" style="display:flex;align-items:center;gap:var(--sp-xs);padding:var(--sp-sm);border-radius:var(--sudut-lg);background:var(--permukaan-terendah);color:var(--utama);">
+              <span class="ikon" style="font-size:20px;color:var(--utama);">photo_camera</span>
+              <span class="label-kecil warna-utama">Instagram: @bakedandco.id</span>
+            </a>
+          </div>
+        </div>
+        <div style="padding-top:var(--sp-sm);display:flex;align-items:center;justify-content:space-between;color:var(--di-permukaan-varian);font-size:13px;flex-wrap:wrap;gap:0.5rem;">
+          <p>© 2025 Baked & Co. Artisan Viennoiserie.</p>
+          <p>Crafted by Kelompok 2 • XI 3.1</p>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- SCRIPT -->
+  <script>
+    (function () {
+      // Data produk pastry
+      var produk = [
+        {
+          judul: "Croissant",
+          subjudul: "Classic Golden Butter Croissant",
+          harga: "Rp 28.000",
+          gambar: "https://lh3.googleusercontent.com/aida-public/AB6AXuClZzYN4-gbuROLfu3cNTu-if7W03Z-2Dv3hQy6yPngo6tfVRCw570qNda4a5ckpfZxhoKiPvLvUH6duY_LGGZCVOa8T7r0YEZFedj1VXJUq9YIpZ8hVnrN792tcRubbGSd1eqPJDuH0lazuonLN7EW2uyxoQ8WFsgrAOR2as6-tcZwlykCrz-VYZ2e7kHKfSO7rK5tL8VDNANTEShqY1ioP1X1UjS8-lbyJJlYpw",
+          alt: "Golden butter croissant"
+        },
+        {
+          judul: "Pain au Chocolat",
+          subjudul: "Dark Valrhona Chocolate Batons Filled Viennoiserie",
+          harga: "Rp 32.000",
+          gambar: "https://lh3.googleusercontent.com/aida-public/AB6AXuClZzYN4-gbuROLfu3cNTu-if7W03Z-2Dv3hQy6yPngo6tfVRCw570qNda4a5ckpfZxhoKiPvLvUH6duY_LGGZCVOa8T7r0YEZFedj1VXJUq9YIpZ8hVnrN792tcRubbGSd1eqPJDuH0lazuonLN7EW2uyxoQ8WFsgrAOR2as6-tcZwlykCrz-VYZ2e7kHKfSO7rK5tL8VDNANTEShqY1ioP1X1UjS8-lbyJJlYpw",
+          alt: "Pain au chocolat with dark chocolate batons"
+        },
+        {
+          judul: "Danish",
+          subjudul: "Seasonal Fresh Orchard Peach & Vanilla Custard Danish",
+          harga: "Rp 34.000",
+          gambar: "https://lh3.googleusercontent.com/aida-public/AB6AXuClZzYN4-gbuROLfu3cNTu-if7W03Z-2Dv3hQy6yPngo6tfVRCw570qNda4a5ckpfZxhoKiPvLvUH6duY_LGGZCVOa8T7r0YEZFedj1VXJUq9YIpZ8hVnrN792tcRubbGSd1eqPJDuH0lazuonLN7EW2uyxoQ8WFsgrAOR2as6-tcZwlykCrz-VYZ2e7kHKfSO7rK5tL8VDNANTEShqY1ioP1X1UjS8-lbyJJlYpw",
+          alt: "Peach danish with vanilla custard"
+        },
+        {
+          judul: "Puff Pastry",
+          subjudul: "Savory Truffle Wild Mushroom Galette",
+          harga: "Rp 36.000",
+          gambar: "https://lh3.googleusercontent.com/aida-public/AB6AXuClZzYN4-gbuROLfu3cNTu-if7W03Z-2Dv3hQy6yPngo6tfVRCw570qNda4a5ckpfZxhoKiPvLvUH6duY_LGGZCVOa8T7r0YEZFedj1VXJUq9YIpZ8hVnrN792tcRubbGSd1eqPJDuH0lazuonLN7EW2uyxoQ8WFsgrAOR2as6-tcZwlykCrz-VYZ2e7kHKfSO7rK5tL8VDNANTEShqY1ioP1X1UjS8-lbyJJlYpw",
+          alt: "Savory puff pastry galette"
+        },
+        {
+          judul: "Cinnamon Roll",
+          subjudul: "Korintje Cinnamon Swirl with Cream Cheese Glaze",
+          harga: "Rp 30.000",
+          gambar: "https://lh3.googleusercontent.com/aida-public/AB6AXuClZzYN4-gbuROLfu3cNTu-if7W03Z-2Dv3hQy6yPngo6tfVRCw570qNda4a5ckpfZxhoKiPvLvUH6duY_LGGZCVOa8T7r0YEZFedj1VXJUq9YIpZ8hVnrN792tcRubbGSd1eqPJDuH0lazuonLN7EW2uyxoQ8WFsgrAOR2as6-tcZwlykCrz-VYZ2e7kHKfSO7rK5tL8VDNANTEShqY1ioP1X1UjS8-lbyJJlYpw",
+          alt: "Cinnamon roll with cream cheese glaze"
+        },
+        {
+          judul: "Éclair",
+          subjudul: "Crisp Choux Pastry with Madagascan Chocolate Glaze",
+          harga: "Rp 35.000",
+          gambar: "https://lh3.googleusercontent.com/aida-public/AB6AXuClZzYN4-gbuROLfu3cNTu-if7W03Z-2Dv3hQy6yPngo6tfVRCw570qNda4a5ckpfZxhoKiPvLvUH6duY_LGGZCVOa8T7r0YEZFedj1VXJUq9YIpZ8hVnrN792tcRubbGSd1eqPJDuH0lazuonLN7EW2uyxoQ8WFsgrAOR2as6-tcZwlykCrz-VYZ2e7kHKfSO7rK5tL8VDNANTEShqY1ioP1X1UjS8-lbyJJlYpw",
+          alt: "Chocolate éclair"
+        }
+      ];
+
+      var indeksAktif = 0;
+
+      // Elemen DOM
+      var judulEl    = document.getElementById('judulProduk');
+      var subjudulEl = document.getElementById('subjudulProduk');
+      var hargaEl    = document.getElementById('hargaProduk');
+      var labelEl    = document.getElementById('labelUrutan');
+      var gambarEl   = document.getElementById('gambarProduk');
+      var wadahEl    = document.getElementById('wadahProduk');
+      var tabEl      = document.querySelectorAll('.pastri-tab');
+      var tombolSebelum = document.getElementById('tombolSebelum');
+      var tombolBerikut = document.getElementById('tombolBerikut');
+
+      function perbaruiTampilan(indeksBaru) {
+        indeksAktif = (indeksBaru + produk.length) % produk.length;
+        var item = produk[indeksAktif];
+
+        // Transisi
+        wadahEl.classList.add('transisi');
+
+        setTimeout(function () {
+          judulEl.textContent = item.judul;
+          subjudulEl.textContent = item.subjudul;
+          hargaEl.textContent = item.harga;
+          labelEl.textContent = "Produk 0" + (indeksAktif + 1) + " dari 06";
+          gambarEl.src = item.gambar;
+          gambarEl.alt = item.alt;
+
+          // Update tab
+          tabEl.forEach(function (tab, idx) {
+            if (idx === indeksAktif) {
+              tab.classList.add('aktif');
+            } else {
+              tab.classList.remove('aktif');
+            }
+          });
+
+          wadahEl.classList.remove('transisi');
+        }, 150);
+      }
+
+      // Event tombol panah
+      if (tombolSebelum) tombolSebelum.addEventListener('click', function () {
+        perbaruiTampilan(indeksAktif - 1);
+      });
+      if (tombolBerikut) tombolBerikut.addEventListener('click', function () {
+        perbaruiTampilan(indeksAktif + 1);
+      });
+
+      // Event tab
+      tabEl.forEach(function (tab) {
+        tab.addEventListener('click', function () {
+          var idx = parseInt(this.getAttribute('data-index') || '0', 10);
+          perbaruiTampilan(idx);
+        });
+      });
+
+      // Keyboard navigasi
+      window.addEventListener('keydown', function (e) {
+        if (e.key === 'ArrowRight') perbaruiTampilan(indeksAktif + 1);
+        if (e.key === 'ArrowLeft') perbaruiTampilan(indeksAktif - 1);
+      });
+    })();
+  </script>
+
+</body>
+</html>
